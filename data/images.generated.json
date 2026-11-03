@@ -1,0 +1,560 @@
+{
+  "hero/unwind": {
+    "src": "/images/hero/unwind.webp",
+    "avif": "/images/hero/unwind.avif",
+    "width": 2400,
+    "height": 1599,
+    "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsAA4BaJbACdAEOfBA8+QAA/mMdPi9KH97nUNNrTXfq6MGGhYX/jjX4OkFLZCvL8N3EfwAAAA==",
+    "alt": "Top-down aerial of a thatched overwater villa with a private plunge pool on a turquoise Maldives lagoon",
+    "position": "55% 50%"
+  },
+  "hero/discover": {
+    "src": "/images/hero/discover.webp",
+    "avif": "/images/hero/discover.avif",
+    "width": 2400,
+    "height": 1674,
+    "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAsAA4BaJZQAAlxUHJRMAAD+T4CBt1G2WpNe6RxyHyjozkQ3zXRPDwst4Qe8ooR63piBAAA=",
+    "alt": "Hallstatt's church spire and lakeside houses beneath mist-wrapped mountains on a still, grey morning",
+    "position": "50% 50%"
+  },
+  "how/listen": {
+    "src": "/images/how/listen.webp",
+    "avif": "/images/how/listen.avif",
+    "width": 1600,
+    "height": 1253,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAA0AA4BaJYgCdAD1bftNYAAA/B7rxMMJSsWDXdekkjvpTEY7sezm3T3RS3bGwHugVJOmAPKU3lhps1jMDVkqGX3XjYLqliMck5TeUsRLMHvYPxL5s2wcI8AAAA==",
+    "alt": "Overhead view of hands spread across a paper road map on a wooden table, with coffee, notebook, sunglasses and a camera",
+    "position": "50% 50%"
+  },
+  "how/design": {
+    "src": "/images/how/design.webp",
+    "avif": "/images/how/design.avif",
+    "width": 1600,
+    "height": 901,
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAkAA4BaJZQCdIExFMsxTD7AAP61ymix86/pYegu7+VFD/cn1rLhjFdhp3ucBTEM3PyFAahbr2L3A/Q+gb+IKazVK0uyCAwAAA==",
+    "alt": "Two silhouetted travellers at a ship's deck railing watching the sun set over the open sea",
+    "position": "40% 50%"
+  },
+  "how/advocate": {
+    "src": "/images/how/advocate.webp",
+    "avif": "/images/how/advocate.avif",
+    "width": 1600,
+    "height": 1067,
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAsAA4BaJZgCdAYuljS/a8I0AAD+6j4rUX1ow3iALXhIIfwa52Q0vAOsuRc+LoMcljptpQzvoTHw6W5cMaXR6rzLd2/uWvOuLmgBlysD+PEAAAA=",
+    "alt": "A woman seen from behind gazing out of a vintage train window as green countryside blurs past in warm light",
+    "position": "50% 50%"
+  },
+  "journeys/prague": {
+    "src": "/images/journeys/prague.webp",
+    "avif": "/images/journeys/prague.avif",
+    "width": 2000,
+    "height": 1333,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJZQC7ADhOU3Mf9YAAP7wMxqvjKzA4TcsVd7qSY9b4UUy3u5UTACZpuTTMevO5rECIIlud6VpMUZpoFJDnz8KQhNCFC3uEmAAAA==",
+    "alt": "The giant Christmas tree and market crowds in Prague's Old Town Square, with St Nicholas Church behind",
+    "position": "45% 50%"
+  },
+  "journeys/danube": {
+    "src": "/images/journeys/danube.webp",
+    "avif": "/images/journeys/danube.avif",
+    "width": 2000,
+    "height": 1333,
+    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsAA4BaJZACsAEVIC2teIAA/nhecgHgoZb8liqwnzBcKhbyYrcnJpVnDm2+U+DOGBB5QZrG1W2ZQWAMYlOtfYAAAA==",
+    "alt": "The Danube at Passau seen from above, with the riverside Veste Niederhaus castle, a docked river cruise ship and a boat mid-stream",
+    "position": "60% 50%"
+  },
+  "cta/fork": {
+    "src": "/images/cta/fork.webp",
+    "avif": "/images/cta/fork.avif",
+    "width": 2000,
+    "height": 2667,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JagCdMoADZYGFTAoVl2gA85VjeP0YOxWlajTEPG3bD1wEdI2//izTgIdOPD6xuDRqhMCZ684KmMNX+itUfoeJOaUoY/DZ5WzfRmZy1zE4Iyy5BE4S/jhUKLGTfBuFDA4XYhtRppzdEpGMrjLwhMCMAAA=",
+    "alt": "A leaf-strewn woodland trail splitting into two paths beneath golden autumn trees",
+    "position": "50% 70%"
+  },
+  "pages/resources": {
+    "src": "/images/pages/resources.webp",
+    "avif": "/images/pages/resources.avif",
+    "width": 2000,
+    "height": 3000,
+    "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwCdMoAlsf98Glgl5JoKCA5+6HOAAPvRUe/NNK/ohowiEcecDpwfbpTvKPhgxeN1Clgpho0hzP15vTmfAzxGWcJ+pfGu2a3S4c4ACT2R7Knjf74MuZFH9PXZW8wDsphO7fHu7aeyCWvRfAdZrnZI30QQEDurQogAAA==",
+    "alt": "Flat lay of a vintage camera, instant photos, a stamped passport, ticket stubs, a watch and an open book on a map",
+    "position": "50% 50%"
+  },
+  "pages/contact": {
+    "src": "/images/pages/contact.webp",
+    "avif": "/images/pages/contact.avif",
+    "width": 2000,
+    "height": 1125,
+    "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAkAA4BaJYgCdEf/gbh9f7gAAP7vYWcP3eHBfDql5nEr+HtXNZ5tU3OJkuDAfxMhOYem0k1Ek0AA",
+    "alt": "An airliner wing tip above a sea of clouds as the sun sets in bands of gold and violet",
+    "position": "55% 55%"
+  },
+  "pages/why": {
+    "src": "/images/pages/why.webp",
+    "avif": "/images/pages/why.avif",
+    "width": 2000,
+    "height": 1000,
+    "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAgAA4BaJZQCdAELWMyO98AA/rI+/6E6yVsFyzvOcKa0ie/ewsX2W1fXyk5xtGdBaO85GEW/gAAA",
+    "alt": "A lone traveller seen from behind looking out over layered mountain ridges at golden hour",
+    "position": "50% 50%"
+  },
+  "pages/notfound": {
+    "src": "/images/pages/notfound.webp",
+    "avif": "/images/pages/notfound.avif",
+    "width": 2000,
+    "height": 2500,
+    "blur": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JQBdgAs0QFf4W/CFRDApOAAD+70mtPvRCEkFju/GsUZAWq+9mvE3TeKR7TydwaGNqghjll+B9zbov5RXbkV9xz9KG9SdWE3Luv2WP9HYBCbX3m4lBiyUCAAA=",
+    "alt": "A dirt path leading into a misty pine forest lit by soft, warm morning light",
+    "position": "60% 45%"
+  },
+  "styles/ocean-cruise": {
+    "src": "/images/styles/ocean-cruise.webp",
+    "avif": "/images/styles/ocean-cruise.avif",
+    "width": 1200,
+    "height": 1802,
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoQABgAPu1iqU2ppaQiMAgBMB2JagCdMoAApP4hx8JgAOcZgDYM1P/xYDu0Tv/5j5R1t6PB184PYsWKRXHg0EI49QBacdUz2J7aTt4A",
+    "alt": "Overhead drone view of a white cruise ship cutting a long wake through turquoise water",
+    "position": "50% 50%"
+  },
+  "styles/river-cruise": {
+    "src": "/images/styles/river-cruise.webp",
+    "avif": "/images/styles/river-cruise.avif",
+    "width": 1200,
+    "height": 1500,
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoQABQAPu1iqU2ppaOiMAgBMB2JYgCdACHQScym1zF8G/RwgrgA/q9tU5+jbVJiK4QIYZgYMsVbdoeRXhPlxbrLNmLgxapDtL39AVKMBF/6Ra6KtvzIHcI2dlzC34Rr0uHsuDcwkjDvzZ+6SbIKaI2GehO5U6wA",
+    "alt": "River cruise ship moored on the Danube beneath the red-spired St. Francis of Assisi Church in Vienna at golden hour",
+    "position": "50% 50%"
+  },
+  "styles/all-inclusive": {
+    "src": "/images/styles/all-inclusive.webp",
+    "avif": "/images/styles/all-inclusive.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQAAsAA4BaJbACdAEPhWFfB7SMEADLJiem5yj4rRpHNUyXihWXZYRC4Du8UHBfao2w3yvY5ZY5k3mryL0AAA==",
+    "alt": "White sun loungers with an orange towel beside an infinity pool overlooking the sea and hills at sunset",
+    "position": "65% 50%"
+  },
+  "styles/destination-wedding": {
+    "src": "/images/styles/destination-wedding.webp",
+    "avif": "/images/styles/destination-wedding.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQAAsAA4BaJZQAAscB66BjdP0AAP7IxTN/ncigJxPCXhOTVnOo0rMd52Xt6IwsaM+wCQSNtvjdW0NHMbidaEAA",
+    "alt": "Circular floral wedding arch with pampas grass at the end of a boardwalk aisle facing the ocean",
+    "position": "50% 50%"
+  },
+  "styles/tours": {
+    "src": "/images/styles/tours.webp",
+    "avif": "/images/styles/tours.avif",
+    "width": 1200,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JQBOmUAS3YxeXWzu+vZPzq39mITgAAP7pisqz1MxoVatWrWagzwsr0mUq8Uity3FHkVvl1jRzKujYTf4UGxtEA5plprc982Vo1z/9rl673hDOIr6XWrCMZje7ltXgdQXEoQ7+4vvuzVCkYyEddKoOK4htObCdKG/AOY/GAAA=",
+    "alt": "Small group of travellers seen from behind walking a cobbled lane between medieval stone houses",
+    "position": "50% 50%"
+  },
+  "styles/luxury": {
+    "src": "/images/styles/luxury.webp",
+    "avif": "/images/styles/luxury.avif",
+    "width": 1200,
+    "height": 763,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAoAA4BaJYwCdAD2Bwf7JKUa4AD+8aMiifS6N+869/rr1J16pY9xImACJgtUdwkCQ+8jJLL8hqtEYuHFY4tIA+OSy+tfPxWdKnC9iCoAAA==",
+    "alt": "Villa living room opening through tall glass doors onto a terrace with two chairs and a wide ocean view",
+    "position": "50% 50%"
+  },
+  "styles/short-stays": {
+    "src": "/images/styles/short-stays.webp",
+    "avif": "/images/styles/short-stays.avif",
+    "width": 1200,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYgCo9ywBz55C0GqaP+s+vzBpAAD+xylr13Eg4BgP6rw0huBMEz5qxPSGjLrRh8SqaofwrJDu81UROPbgnlR6jt1FJ15CXZQXPDwnWK6t8NA0hq+XTM1SqApzKnpB4/lXyzWjd1pqaFmMV3ocFDKBz1yosn7o1fPm1txGzp82B/kAAAA=",
+    "alt": "Glowing red awnings of a corner café beneath Haussmann balconies in Paris at dusk",
+    "position": "50% 50%"
+  },
+  "styles/active": {
+    "src": "/images/styles/active.webp",
+    "avif": "/images/styles/active.avif",
+    "width": 1200,
+    "height": 801,
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAsAA4BaJaACdH8AEIlUnijoAP7WKnYGQYrDXo1fO33D4HjHK/WSEsjtIsxrF4vxPDcl2onTm0sIoQWb6Vuz+dWlLe4G1Dnz30oDwAA=",
+    "alt": "Small group of hikers on a grassy ridge trail above layered mountain valleys in soft golden light, northern Vietnam",
+    "position": "42% 50%"
+  },
+  "atlas/caribbean": {
+    "src": "/images/atlas/caribbean.webp",
+    "avif": "/images/atlas/caribbean.avif",
+    "width": 1800,
+    "height": 2400,
+    "blur": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOmUI4ABWC4unopstEQQiAA/tGqsOOLiBrVqHVoUw4lxTMbgUYVYLqd9hF9bkdhPLrd3ZE9uH1/JJF7aLIPypP7nxTI834ndg2NxejHXGqrULOyAAAA",
+    "alt": "Leaning palm trees on a white-sand beach with turquoise water in the Cayman Islands",
+    "position": "70% 50%"
+  },
+  "atlas/hawaii": {
+    "src": "/images/atlas/hawaii.webp",
+    "avif": "/images/atlas/hawaii.avif",
+    "width": 1800,
+    "height": 1200,
+    "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAsAA4BaJQBOgCKqzOQDOAAA4gP4KRQNaYMCd7DyvLgm9vY9qEwcU4bYpHCnVN6+SLM7qGzMVewBNAAAAA==",
+    "alt": "Golden light on the fluted ridges of Kalalau Valley above the Pacific on Kauai's Na Pali Coast",
+    "position": "60% 50%"
+  },
+  "atlas/mexico": {
+    "src": "/images/atlas/mexico.webp",
+    "avif": "/images/atlas/mexico.avif",
+    "width": 1800,
+    "height": 2568,
+    "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBACdASoQABcAPu1iqU2ppaQiMAgBMB2JYwCdACPw39p6PK6YQ3hmdxJAAP7syEdaVVLvmzbOx99t+2qwQq7V9iE1zWmhk9e4ajOuJrGJ3gzY/YlQ8Uis0xJXDufIeNLKPfipE3P4AAAA",
+    "alt": "A shaft of sunlight falls through the roof of Cenote Suytun onto a lone swimmer on the stone platform, Yucatán",
+    "position": "50% 50%"
+  },
+  "atlas/south-pacific": {
+    "src": "/images/atlas/south-pacific.webp",
+    "avif": "/images/atlas/south-pacific.avif",
+    "width": 1800,
+    "height": 1200,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJZACdAD1joi4kwPAAP5mqg6HFNAOI7yUlxdlxftKUfkPyx+ClArVudZ1gn6WtEaLqY3FNE/PeZAnWkF4numXBtWHZekko0AAAA==",
+    "alt": "Two loungers on white sand facing the turquoise lagoon, overwater bungalows and Mount Otemanu, Bora Bora",
+    "position": "80% 50%"
+  },
+  "atlas/greece": {
+    "src": "/images/atlas/greece.webp",
+    "avif": "/images/atlas/greece.avif",
+    "width": 1800,
+    "height": 1200,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAsAA4BaJYwCdAD0jsda5JAA/t+BMc+/3OrIjW7VmtE5bZxrepC7AR/1J+S0vUcdcKFlJ8ZXgGKlNZ58osO0jNOSpbuLQAA=",
+    "alt": "Blue-domed churches above the caldera in Oia, Santorini",
+    "position": "55% 50%"
+  },
+  "atlas/budapest": {
+    "src": "/images/atlas/budapest.webp",
+    "avif": "/images/atlas/budapest.avif",
+    "width": 1800,
+    "height": 1010,
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAkAA4BaJbACdGuAAs04DPSwAP75EW6V7+IWjOOKSvgKpXdQjPzdnLezkT1IYynr7wT0SBembejL8599kXAAAAA=",
+    "alt": "The Hungarian Parliament glowing gold at night across the Danube, Budapest",
+    "position": "50% 50%"
+  },
+  "atlas/india": {
+    "src": "/images/atlas/india.webp",
+    "avif": "/images/atlas/india.avif",
+    "width": 1800,
+    "height": 2318,
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOgBDtKaKGkA9yDPoya7MAA/vDTTrgz22qCGf73h5ravG2OMvfyV7fSHpYm+g1AR/4rMCVJJf12gu6Q2rq9VeR/4ONXwSo6E2EDed2PD4oDaKWw+RnMnQAAAA==",
+    "alt": "The Taj Mahal framed by a dark arched gateway in the morning mist, Agra",
+    "position": "50% 50%"
+  },
+  "atlas/usa": {
+    "src": "/images/atlas/usa.webp",
+    "avif": "/images/atlas/usa.avif",
+    "width": 1800,
+    "height": 2700,
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAwCdASoQABgAPu1iqU2ppaQiMAgBMB2JZACdABq/qofg9CoboAD7kjRP8yOGnfjR2q2q22xNWKqD488oy7uvpCEawk2PWLDTqXrQxpeFsOsAAAA=",
+    "alt": "Highway 163 running straight toward the buttes of Monument Valley under a pink dusk sky",
+    "position": "50% 50%"
+  },
+  "atlas/africa": {
+    "src": "/images/atlas/africa.webp",
+    "avif": "/images/atlas/africa.avif",
+    "width": 1800,
+    "height": 1200,
+    "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAsAA4BaJZgCdAEPgFjr2DAA/vHPXP8SC/JYrvwqtNwFLzQ1eZHJ9LQnUWJamP11wqCqq/QAAA==",
+    "alt": "A lone giraffe silhouetted on the savanna at golden hour beneath low clouds",
+    "position": "45% 50%"
+  },
+  "atlas/alaska": {
+    "src": "/images/atlas/alaska.webp",
+    "avif": "/images/atlas/alaska.avif",
+    "width": 1800,
+    "height": 1198,
+    "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAgCdASoQAAsAA4BaJYgCdADp/vHMdh4mYAAA/iew5eiXVYk4azjz/pimohWPJvz+8uICdkISfxyHdZkGW2xTkx6MpgAA",
+    "alt": "A small boat in icy water before a tidewater glacier and snowy mountains, Alaska",
+    "position": "50% 50%"
+  },
+  "atlas/south-america": {
+    "src": "/images/atlas/south-america.webp",
+    "avif": "/images/atlas/south-america.avif",
+    "width": 1800,
+    "height": 1161,
+    "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAgCdASoQAAoAA4BaJYwCdAEQAz/RwXGXgAD+VgIeURLW0cB/ejjZrdtSE3ovpZFvDOpZ+5mWTxImcq02WIcmgAA=",
+    "alt": "Sunrise light on the granite peaks of the Paine massif, Torres del Paine, Patagonia",
+    "position": "50% 50%"
+  },
+  "atlas/indonesia": {
+    "src": "/images/atlas/indonesia.webp",
+    "avif": "/images/atlas/indonesia.avif",
+    "width": 1800,
+    "height": 2400,
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZQAAV+fXVc4Fa0x8XBvAAOJ9r7mkwvz+yzxDQJdHHVQtKqymOaTT+Ver0g3UwbQyOlMMfGgdH09uBD9o5P+dplc1Akbronp64OTNTQQOoC+bgaJvXEkekgAAAA==",
+    "alt": "Rice terraces curving through coconut palms in late light near Ubud, Bali",
+    "position": "42% 50%"
+  },
+  "destinations/antarctica": {
+    "src": "/images/destinations/antarctica.webp",
+    "avif": "/images/destinations/antarctica.avif",
+    "width": 1200,
+    "height": 797,
+    "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAsAA4BaJZwCdADcpJ7ViQAA2/mDMTj+1KxzKmkdusIrGHiHLcQlSZ80QH/WhAOH6djljIkaQiAA",
+    "alt": "Adélie penguins lined up on a drifting iceberg in the Southern Ocean",
+    "position": "35% 50%"
+  },
+  "destinations/arctic": {
+    "src": "/images/destinations/arctic.webp",
+    "avif": "/images/destinations/arctic.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAsAA4BaJbACdAC97pImwAD+81CtfUg8pU2fNCo2SUNvvr/ppT0fci1WIx0mqPQvW4iGZnO1eTut5Xb8Zv2RMueQ+LeAAAA=",
+    "alt": "Green northern lights over a snow-covered polar landscape under a starry sky",
+    "position": "50% 50%"
+  },
+  "destinations/aruba": {
+    "src": "/images/destinations/aruba.webp",
+    "avif": "/images/destinations/aruba.avif",
+    "width": 1200,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JYwCdABbIE3IAAITBhiRrG4hgmyXisbj/pLwv5xJeOAt0EXPKYVLOj/9hz62/RAAAAA==",
+    "alt": "Pink flamingo wading in calm water at sunset on an Aruba beach",
+    "position": "50% 50%"
+  },
+  "destinations/asia": {
+    "src": "/images/destinations/asia.webp",
+    "avif": "/images/destinations/asia.avif",
+    "width": 1200,
+    "height": 900,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAwAA4BaJZACdAEfbdk4PCAAAP61WeRbd8d4fQ12hxo+yBp45QG8R076SoJ1ZY2qMb3iZrxIBaRbE5f7LFnJEcQYtxbZYAA=",
+    "alt": "Limestone karsts rising from the emerald water of Ha Long Bay, Vietnam, with a cruise boat",
+    "position": "60% 50%"
+  },
+  "destinations/australia": {
+    "src": "/images/destinations/australia.webp",
+    "avif": "/images/destinations/australia.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQAAsAA4BaJbACdAEWBkmaUgAA/t/5DwkR+Yen2KZMsm3Pac9H9oE1CIJMcf56qSXE5Y0N8O3QwlGVi26T9TlAAAA=",
+    "alt": "Sydney Opera House silhouetted against a golden sunset over the harbour",
+    "position": "50% 50%"
+  },
+  "destinations/bahamas": {
+    "src": "/images/destinations/bahamas.webp",
+    "avif": "/images/destinations/bahamas.avif",
+    "width": 1200,
+    "height": 1600,
+    "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZgCdMoADT2BCcyKgAN4ac3ZooNbnAOAvJdbUs3v+Rx+pjj/jJ2Wpc3jQu0559kpgVDgU/udYRKIle25LDbX9dGPHQAAA",
+    "alt": "Aerial view of rippled sandbars under turquoise shallows off Harbour Island, Bahamas",
+    "position": "50% 50%"
+  },
+  "destinations/baltic": {
+    "src": "/images/destinations/baltic.webp",
+    "avif": "/images/destinations/baltic.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAQCdASoQAAsAA4BaJQBOgB3nDcXAAPx5Ow44yqkyI+x33MJG3RRmcTeq2oC7UG79c5wodEMOq9lgEKdjTkvnkExcpD7Hc1mq8MzjKpgIAA==",
+    "alt": "Colourful gabled merchant houses on Stortorget square in Stockholm's Gamla Stan",
+    "position": "50% 50%"
+  },
+  "destinations/bermuda": {
+    "src": "/images/destinations/bermuda.webp",
+    "avif": "/images/destinations/bermuda.avif",
+    "width": 1200,
+    "height": 1600,
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAACwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoMsd0idgau2nCppxJlKLrIAAP7se+YkZS1btQ+etu/hmFBQU17/JcPoFQlYkdeXjt8u9SQb0UcHuGGEKISL7t3wSqTbceR85sq5e758ZeJI7UPPXLMPvzrSMtX+ZhQoSJsSn7h6XeFIjb4Pj7BJhh8ty20VMHGvoAA=",
+    "alt": "Pink-sand Bermuda beach and turquoise water framed by a dark limestone cave mouth",
+    "position": "50% 50%"
+  },
+  "destinations/britain-ireland": {
+    "src": "/images/destinations/britain-ireland.webp",
+    "avif": "/images/destinations/britain-ireland.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsAA4BaJQBOgCKKVyvgZpgA/uX/pE6AzsQ+0BLuK3d8o7GlmtIe+RfChGLzrunUNkzxVWGfxsdCAAA=",
+    "alt": "Floodlit Eilean Donan Castle reflected in a Scottish Highland loch at dusk",
+    "position": "42% 50%"
+  },
+  "destinations/california": {
+    "src": "/images/destinations/california.webp",
+    "avif": "/images/destinations/california.avif",
+    "width": 1200,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABQBACdASoQABgAPu1orU6ppiSiMAgBMB2JZACdMoAluEoz0zOnfZMvnpfsAP76R8uOaLB6UDiAhe/C81NzSuwuyRvU3vprVL3likvLx/DelRtwc6iF5CcHYF9KrT2N5qU91KeLbJqN2KYJLbZZaH8FsD35QxnyDgPj0RZ5ujV/huguGrHju4AA",
+    "alt": "Bixby Creek Bridge arching over a green canyon on the Big Sur coast at soft sunset",
+    "position": "50% 50%"
+  },
+  "destinations/canada-new-england": {
+    "src": "/images/destinations/canada-new-england.webp",
+    "avif": "/images/destinations/canada-new-england.avif",
+    "width": 1200,
+    "height": 900,
+    "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAwAA4BaJQBOgCPN13JSaagA/fo7A3MlTqyFgYcVkibkfHI+Png9rFaRdoe5RIU0YPBnWvmsGyJoGqrLlAAA",
+    "alt": "Portland Head Light and keeper's house on the rocky Maine coast",
+    "position": "50% 50%"
+  },
+  "destinations/western-canada": {
+    "src": "/images/destinations/western-canada.webp",
+    "avif": "/images/destinations/western-canada.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAsAA4BaJbACdAELzlsMxnoGAAD45Xg18b8t+tchpuIa8DmjfdQdpJnk/98nTCwyTQxVObQaVbiUngj0gIPZ40fdXZIOOYxqFsic6IjsozpLZzITGwBnlJxz4wAA",
+    "alt": "Sunrise glow on the Valley of the Ten Peaks above turquoise Moraine Lake, Banff",
+    "position": "50% 50%"
+  },
+  "destinations/cancun": {
+    "src": "/images/destinations/cancun.webp",
+    "avif": "/images/destinations/cancun.avif",
+    "width": 1200,
+    "height": 900,
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAwAA4BaJbACdAEKznVE0hVAAP6jWgNjI4wE7HZ2VORThjXWphHUs6aO/cVJ6vv3AFpBhl8bLb5E7wxf2AzB8gsjhppo7t9cBYBiX0RVYsmR6+BZOxVkH1/1jqNoeAAAAA==",
+    "alt": "Aerial view of Cancún's Hotel Zone beach along turquoise Caribbean water",
+    "position": "60% 50%"
+  },
+  "destinations/caribbean-eastern": {
+    "src": "/images/destinations/caribbean-eastern.webp",
+    "avif": "/images/destinations/caribbean-eastern.avif",
+    "width": 1200,
+    "height": 900,
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwAA4BaJbACdAEUzl4gEgAA/VCXY/PFabe38pNMRgjKHoK/67Jr9+vWzD4tanq2uXigTLvz5me8r14SRtH0HZI6fzTCSPyghWS9AAA=",
+    "alt": "Quiet curve of Francis Bay beach below green hills on St. John, U.S. Virgin Islands",
+    "position": "50% 50%"
+  },
+  "destinations/caribbean-western": {
+    "src": "/images/destinations/caribbean-western.webp",
+    "avif": "/images/destinations/caribbean-western.avif",
+    "width": 1200,
+    "height": 675,
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoQAAkAA4BaJbACdADhLd0IAADOFxIrWHeq3J/SJeVrQUEdhOaQUhIgtl2QZ+YCf0CrS4oNYALeb7fJt6daU4FN6/PBCKm8GuvCQAAA",
+    "alt": "Aerial view of a wooden pier over turquoise reef water beside a palm-lined beach in Cozumel, Mexico",
+    "position": "55% 50%"
+  },
+  "destinations/caribbean-southern": {
+    "src": "/images/destinations/caribbean-southern.webp",
+    "avif": "/images/destinations/caribbean-southern.avif",
+    "width": 1200,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBACdASoQABgAPu1qrU8ppiQiMAgBMB2JbACdMoRwACWhKa7CbBcegAD+4Lw+ZjdHZZsZabdNsm3wueoxYGPyQI7EQxGqbgKrOUxFWmztKRbLsKeiCX76inPbwqwp9ok5ZWj6dnlvlJqOcY2lvW+6h2t3TAAA",
+    "alt": "Colourful Dutch colonial waterfront facades of Handelskade, Willemstad, Curaçao",
+    "position": "50% 50%"
+  },
+  "destinations/central-america": {
+    "src": "/images/destinations/central-america.webp",
+    "avif": "/images/destinations/central-america.avif",
+    "width": 1200,
+    "height": 675,
+    "blur": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAkAA4BaJZQC7AEN0bSEQAD+dcRJddavjh3uHDQt4+IwQ2CpvSWbpEAAAA==",
+    "alt": "Arenal Volcano, Costa Rica, its cone crowned by golden-lit clouds above rainforest and Lake Arenal",
+    "position": "50% 50%"
+  },
+  "destinations/europe": {
+    "src": "/images/destinations/europe.webp",
+    "avif": "/images/destinations/europe.avif",
+    "width": 1200,
+    "height": 1500,
+    "blur": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JbACdMoMYAEwWGsWsp4mFEtyI2AAA/qElDtVpgcugIXC9QbZd1HXkEfAZa6/cXPS6fM9mP89/enUk3rDx00I/njEBzQYsKgE7UDG5eFnbQg1yZMyuI+cRKlCrjusbc7rNFVPrepz2dGdpdaxz94pxniEgAA==",
+    "alt": "Colourful clifftop houses of Manarola, Cinque Terre, above a rocky Ligurian cove in warm sunlight",
+    "position": "50% 50%"
+  },
+  "destinations/florida": {
+    "src": "/images/destinations/florida.webp",
+    "avif": "/images/destinations/florida.avif",
+    "width": 1200,
+    "height": 1500,
+    "blur": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAwCdASoQABQAPu1iqU2ppaQiMAgBMB2JYgCw7CHXgxgYjWpLYSIAAPGlomPtwL/UxPi31tfBn15o7GzB2EJQX6mp68WXQ/fXz1E7zRoDzw8HJntRDGUTlqMrgJM/Imuj9dIdG7snwAAA",
+    "alt": "Blue art-deco lifeguard tower on Miami Beach under a pastel sunset sky",
+    "position": "50% 50%"
+  },
+  "destinations/jamaica": {
+    "src": "/images/destinations/jamaica.webp",
+    "avif": "/images/destinations/jamaica.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAsAA4BaJbACdH8AgkBpR9gAAP2+lHDausXl+AY6w+KcJJsBXqWmyy8eMsxJnVx/I/fGjfsxqIpVYwTHrkEX6d1KuTId1/sCxAAA",
+    "alt": "Aerial view of Negril's limestone cliffs, thatched villas and turquoise Caribbean water, Jamaica",
+    "position": "33% 50%"
+  },
+  "destinations/las-vegas": {
+    "src": "/images/destinations/las-vegas.webp",
+    "avif": "/images/destinations/las-vegas.avif",
+    "width": 1200,
+    "height": 788,
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACwAQCdASoQAAsAA4BaJbACdAEOoKKwAP6EGvXn/XvbJU7xlaLcryR64SKDGU1zPubKgCJYojFfhz7Uag3WW9cX2soRLhUdgQj7VwwyJ7C6HPuQAAA=",
+    "alt": "Las Vegas Strip at dusk with the Bellagio fountains and illuminated Eiffel Tower replica",
+    "position": "60% 50%"
+  },
+  "destinations/mediterranean": {
+    "src": "/images/destinations/mediterranean.webp",
+    "avif": "/images/destinations/mediterranean.avif",
+    "width": 1200,
+    "height": 1600,
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JYgC7ABosVp3ZUyIKgwAA/q+MqjNLGBnArsJghYx/v583QjgYSVNpkwe/9uNEFTyvzWNJxvLif/lp782Hd866fEwE6keuUz61KZxhtSC36Ng+G/eMNWYnzPljfoqTAAA=",
+    "alt": "Pastel houses of Positano stacked on the cliffs above the Amalfi Coast sea",
+    "position": "60% 50%"
+  },
+  "destinations/mexican-riviera": {
+    "src": "/images/destinations/mexican-riviera.webp",
+    "avif": "/images/destinations/mexican-riviera.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsAA4BaJZgCdAEOwdUZO4AA/kD+CHPwxxJJc747bRl7+dP1cO07h7EpiW53P9R0sRfvPXo24ceuTSRp/AYx52Q1skmcfQuAAA==",
+    "alt": "Land's End rock formations of Cabo San Lucas glowing at sunrise above the sea",
+    "position": "60% 50%"
+  },
+  "destinations/middle-east": {
+    "src": "/images/destinations/middle-east.webp",
+    "avif": "/images/destinations/middle-east.avif",
+    "width": 1200,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JQBOgZYJzYVyWkwKZqyyxEADylV2fqhklC5l+yyCbLTxbatmSb+99MPtpd+ZsycutpJ1mxtL2hzei1o532PkTxXVA/HgykEIG9BCDXd/OJm+mEZAR4Bv/+sDDljZXbxNjw+Zqo/ZerXZb9X1uTKQVdE7R1f+V1VU9/GfMdMAAAA==",
+    "alt": "Rose-red facade of the Treasury (Al-Khazneh) carved into the rock at Petra, Jordan",
+    "position": "50% 50%"
+  },
+  "destinations/new-zealand": {
+    "src": "/images/destinations/new-zealand.webp",
+    "avif": "/images/destinations/new-zealand.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAsAA4BaJYwCdAYvrlKdMQ89JQAA/u4lAZSt3SrK5Sl9MuTaVMKWv30Sg0q18n5BjnodDAHgAHa01JHzkcz2c1r4s/V9KGaavMswYlIMA8nHUGjaCmAUWO6vqY7MQAA=",
+    "alt": "Mitre Peak and the peaks of Milford Sound mirrored in still water at sunrise, New Zealand",
+    "position": "50% 50%"
+  },
+  "destinations/northern-europe": {
+    "src": "/images/destinations/northern-europe.webp",
+    "avif": "/images/destinations/northern-europe.avif",
+    "width": 1200,
+    "height": 798,
+    "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsAA4BaJYwCdH8AFk1zm3QAAOIEQjsJnPHDmw0gxaatm4Q/1YoEu5nSbBum0mVhADyV6JP05JrBjbPDdsHi8I0LsHCFYqAAAA==",
+    "alt": "Cruise ship sailing a steep-walled Norwegian fjord beneath a pink sunset sky",
+    "position": "50% 50%"
+  },
+  "destinations/panama-canal": {
+    "src": "/images/destinations/panama-canal.webp",
+    "avif": "/images/destinations/panama-canal.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwAgCdASoQAAsAA4BaJbACdGuAAs5+GmqJ2cIAAP6yPmG39407XvzlGwMTto3iA9Xqt/TyS+aL0UgUSV2UzMp/8UmD268EJHvDX3bisI20SMvXQAA=",
+    "alt": "Container ship guided by a tug through the Panama Canal locks on a bright day",
+    "position": "50% 50%"
+  },
+  "destinations/transatlantic": {
+    "src": "/images/destinations/transatlantic.webp",
+    "avif": "/images/destinations/transatlantic.avif",
+    "width": 1200,
+    "height": 806,
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAsAA4BaJbACdH8AGBL+KIuwAPzZcJ3w6jLu7I6lh2UZwcmA3jNjvOlMnA8u9iVqSQRxE02Z0OPeqYqnsBgwqdDsW4AA",
+    "alt": "View from a cruise ship's deck over the open ocean at golden hour, a small boat leaving a white wake",
+    "position": "50% 50%"
+  },
+  "destinations/usa-eastern": {
+    "src": "/images/destinations/usa-eastern.webp",
+    "avif": "/images/destinations/usa-eastern.avif",
+    "width": 1200,
+    "height": 1500,
+    "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JaACw7CHw3pqmAHS2siuAAP5llpv5pnqkdvjsI1aSoN661CdzM08Ep8E0z2N8/jr2TrEh+TfV2rSCigRYDrgA",
+    "alt": "Lower Manhattan skyline and Brooklyn Bridge silhouetted against an orange sunset over the East River",
+    "position": "50% 50%"
+  },
+  "destinations/usa-western": {
+    "src": "/images/destinations/usa-western.webp",
+    "avif": "/images/destinations/usa-western.avif",
+    "width": 1200,
+    "height": 1800,
+    "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQAwCdASoQABgAPu1Ct1apoqakGAEwHYlsAABcuN6L5WiSPtD7R4AA/rW8b/DcVIMqBfZjBwYegJ6UGrg1xLXvkVmU3km/YfhSgvnB/6tqT41pGMLuhCV+W7jBwjmrwpuXNSSdahoJIVr0JpocmyY/Ux2BaB9aXi8glj077p3GAVUgp8AAAA==",
+    "alt": "Monument Valley buttes in warm sunset light beyond golden desert grass",
+    "position": "50% 25%"
+  }
+}
