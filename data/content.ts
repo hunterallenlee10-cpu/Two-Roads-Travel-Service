@@ -55,7 +55,7 @@ export const FAQS: Faq[] = [
   },
   {
     q: "Do you plan destination weddings and groups?",
-    a: "Yes. Shannon specializes in destination weddings, honeymoons and family vacations, and Michelle plans group and solo travel. Ask how guest bookings and group details are handled for your trip.",
+    a: "Yes. Sarah specializes in destination weddings, honeymoons and family vacations, and Michele plans group and solo travel. Ask how guest bookings and group details are handled for your trip.",
   },
   {
     q: "What happens if my flight is cancelled?",
@@ -71,7 +71,7 @@ export const FAQS: Faq[] = [
   },
   {
     q: "How do we get started?",
-    a: "Call 610-849-2302 or open the Trip Matchmaker. Tell us a little about you, and Michelle or Shannon will reach out within one business day.",
+    a: "Call 610-849-2302 or open the Trip Matchmaker. Tell us a little about you, and Michele or Sarah will reach out within one business day.",
   },
 ];
 

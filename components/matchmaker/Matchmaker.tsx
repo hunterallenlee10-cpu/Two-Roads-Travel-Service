@@ -23,7 +23,7 @@ const HELP: string[] = [
   "A month and a rough length is plenty.",
   "A range is all we need. No judgement here.",
   "The details that turn a good trip into the one you talk about.",
-  "Michelle or Shannon will reach out within one business day.",
+  "Michele or Sarah will reach out within one business day.",
 ];
 
 function validateStep(step: number, a: TripAnswers): string | null {

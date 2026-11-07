@@ -19,7 +19,7 @@ export default function CreditsPage() {
           The eyes <em className="italic">behind the views.</em>
         </h1>
         <p className="text-lede mt-6 max-w-[56ch] text-ink-muted">
-          Photos of Michelle and Shannon are their own. Every other photograph on this site comes from Pexels and is used under the Pexels License. Thank you to these photographers.
+          Photos of Michele and Sarah are their own. Every other photograph on this site comes from Pexels and is used under the Pexels License. Thank you to these photographers.
         </p>
         <table className="mt-14 w-full border-collapse text-left text-sm">
           <caption className="sr-only">Photographs, photographers and sources</caption>

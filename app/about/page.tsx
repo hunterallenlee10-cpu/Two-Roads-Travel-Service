@@ -12,7 +12,7 @@ import { SectionIntro } from "@/components/ui/SectionIntro";
 export const metadata: Metadata = {
   title: "Meet Our Team",
   description:
-    "Two Roads Travel Service is a mother and daughter team. Meet Michelle, owner and advisor for cruises, Europe, luxury, solo and group travel, and Shannon, advisor for family vacations, honeymoons and destination weddings.",
+    "Two Roads Travel Service is a mother and daughter team. Meet Michele, owner and advisor for cruises, Europe, luxury, solo and group travel, and Sarah, advisor for family vacations, honeymoons and destination weddings.",
   alternates: { canonical: "/about" },
 };
 
@@ -29,11 +29,11 @@ export default function AboutPage() {
             </p>
             <h1 id="about-title" className="font-display text-display mt-6 font-light">
               <span className="block overflow-hidden pb-[0.12em]">
-                <span className="rise-in block">Meet Michelle</span>
+                <span className="rise-in block">Meet Michele</span>
               </span>
               <span className="block overflow-hidden pb-[0.12em]">
                 <em className="rise-in block italic" style={{ animationDelay: "90ms" }}>
-                  and Shannon.
+                  and Sarah.
                 </em>
               </span>
             </h1>
@@ -54,7 +54,7 @@ export default function AboutPage() {
             </div>
             <figcaption className="mt-4 flex items-center gap-3 text-sm text-ink-muted">
               <ForkGlyph className="h-4 w-4 text-terracotta" />
-              Michelle, left, and her daughter Shannon
+              Michele, left, and her daughter Sarah
             </figcaption>
           </figure>
         </div>
@@ -71,7 +71,7 @@ export default function AboutPage() {
           />
           <Reveal className="text-lede space-y-6 text-ink-muted lg:col-span-6 lg:col-start-7 lg:pt-16">
             <p>
-              Two Roads is a family business in the truest sense. Michelle owns the agency, and her daughter Shannon plans alongside her as a travel advisor. We each have our own specialties, and we share one belief: travel goes better when someone takes the time to get you first.
+              Two Roads is a family business in the truest sense. Michele owns the agency, and her daughter Sarah plans alongside her as a travel advisor. We each have our own specialties, and we share one belief: travel goes better when someone takes the time to get you first.
             </p>
             <p>
               That is the difference between us and a booking site. A website can sell you a room. We want to know who you are traveling with, what you loved about your last trip, and what you never want to do again. Then we build around it, and we stay with you until you are home.

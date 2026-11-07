@@ -68,7 +68,7 @@ export function Dossier({ answers, reference, onClose }: { answers: TripAnswers;
           <div className="mt-10 grid gap-6 md:grid-cols-[1fr_auto] md:items-end">
             <div>
               <p className="font-display text-2xl leading-snug">
-                {firstName ? `Thank you, ${firstName}.` : "Thank you."} Michelle or Shannon will reach out within one business day.
+                {firstName ? `Thank you, ${firstName}.` : "Thank you."} Michele or Sarah will reach out within one business day.
               </p>
               <p className="mt-2 text-sm text-ink-muted">
                 {answers.callTime ? `We will aim for the ${answers.callTime.toLowerCase()}.` : "We will call at a good time for you."} Reach us at {SITE.phone}.

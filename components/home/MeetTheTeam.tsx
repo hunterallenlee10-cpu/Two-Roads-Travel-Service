@@ -22,7 +22,7 @@ export function MeetTheTeam() {
           </ClipReveal>
           <figcaption className="mt-4 flex items-center gap-3 text-sm text-ink-muted">
             <ForkGlyph className="h-4 w-4 text-terracotta" />
-            Michelle, left, and her daughter Shannon
+            Michele, left, and her daughter Sarah
           </figcaption>
         </figure>
 
