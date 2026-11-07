@@ -7,7 +7,6 @@ import { Phone, X } from "lucide-react";
 import { PRIMARY_NAV, SITE } from "@/data/site";
 import { lockScroll, unlockScroll } from "@/lib/scroll";
 import { useFocusTrap } from "@/lib/useFocusTrap";
-import { useRoad } from "@/components/providers/RoadProvider";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { PlanTripButton } from "@/components/ui/PlanTripButton";
 import { RoadPill } from "./RoadPill";
@@ -18,7 +17,6 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
   const ref = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const reduce = useReducedMotion();
-  const { road } = useRoad();
   const close = useCallback(() => onClose(), [onClose]);
   useFocusTrap(ref, open, close);
 
@@ -49,7 +47,7 @@ export function MobileMenu({ open, onClose }: { open: boolean; onClose: () => vo
         >
           <div className="px-gutter relative z-10 flex h-[var(--nav-h)] items-center justify-between">
             <Link href="/" onClick={close} aria-label="Two Roads Travel Service, home">
-              <Wordmark road={road} />
+              <Wordmark tone="light" />
             </Link>
             <button
               ref={closeRef}

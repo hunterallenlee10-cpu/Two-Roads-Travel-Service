@@ -1,20 +1,37 @@
-import type { RoadOrNone } from "@/lib/road";
-import { ForkGlyph } from "./ForkGlyph";
+import Image from "next/image";
+import lockup from "@/public/brand/lockup.png";
+import lockupLight from "@/public/brand/lockup-light.png";
+import logo from "@/public/brand/logo.png";
+import logoLight from "@/public/brand/logo-light.png";
 
-/** Typographic lockup: forked-path glyph + "Two Roads" set in the display serif. */
-export function Wordmark({ road = null, size = "md" }: { road?: RoadOrNone; size?: "md" | "lg" }) {
+/**
+ * The Two Roads logo.
+ * size "md": emblem beside "Two Roads / Travel Service" (nav, dossier).
+ * size "lg": the full stacked logo with the "Your Journey. Your Way." tagline (footer).
+ * tone "light" swaps the navy for sand so it reads on the dark ink background.
+ */
+export function Wordmark({
+  tone = "dark",
+  size = "md",
+  className = "",
+  eager = false,
+}: {
+  tone?: "dark" | "light";
+  size?: "md" | "lg";
+  className?: string;
+  /** Set for logos that are visible on first paint (the nav). */
+  eager?: boolean;
+}) {
   const big = size === "lg";
+  const src = big ? (tone === "light" ? logoLight : logo) : tone === "light" ? lockupLight : lockup;
   return (
-    <span className="inline-flex items-center gap-2.5 whitespace-nowrap">
-      <ForkGlyph road={road} className={big ? "h-14 w-14" : "h-7 w-7 shrink-0"} />
-      <span className="flex flex-col leading-none">
-        <span className={`font-display ${big ? "text-5xl md:text-6xl" : "text-[1.4rem]"} tracking-[-0.03em]`}>
-          Two <em className="font-light italic">Roads</em>
-        </span>
-        <span className={`eyebrow mt-1 ${big ? "text-[0.7rem]" : "text-[0.5rem]"} tracking-[0.34em] opacity-80`}>
-          Travel Service
-        </span>
-      </span>
-    </span>
+    <Image
+      src={src}
+      alt="Two Roads Travel Service"
+      sizes={big ? "320px" : "200px"}
+      loading={eager ? "eager" : "lazy"}
+      className={`${big ? "h-auto w-64 md:w-80" : "h-11 w-auto md:h-12"} select-none ${className}`}
+      draggable={false}
+    />
   );
 }
