@@ -44,7 +44,7 @@ export function CallbackForm() {
         <p className="font-display text-3xl leading-tight font-light">
           Thank you, {name.trim().split(/\s+/)[0]}. <em className="italic">We will call you{callTime && callTime !== "Anytime" ? ` in the ${callTime.toLowerCase()}` : ""}.</em>
         </p>
-        <p className="text-ink-muted">Michelle or Shannon will reach out within one business day.</p>
+        <p className="text-ink-muted">Michele or Sarah will reach out within one business day.</p>
       </div>
     );
   }

@@ -3,11 +3,11 @@ import type { Road } from "@/lib/road";
 
 /**
  * The people behind Two Roads.
- * Facts here come from the client: Michelle owns the agency, her daughter Shannon is a travel advisor,
+ * Facts here come from the client: Michele owns the agency, her daughter Sarah is a travel advisor,
  * and each has her own specialties. Bios are drafts for the client to review and personalize.
  */
 export type Advisor = {
-  key: "michelle" | "shannon";
+  key: "michele" | "sarah";
   name: string;
   role: string;
   /** How she fits in the family, shown as a small line under the name. */
@@ -22,31 +22,31 @@ export type Advisor = {
 
 export const TEAM: Advisor[] = [
   {
-    key: "michelle",
-    name: "Michelle",
+    key: "michele",
+    name: "Michele",
     role: "Owner and travel advisor",
     relation: "The mom",
     specialties: ["Cruises", "European travel", "Luxury experiences", "Solo travel", "Group travel"],
     short: "Cruises, Europe, luxury, and trips for solo travelers and groups.",
     bio: [
-      "Michelle owns Two Roads. Her focus is cruises, travel through Europe, luxury experiences, and trips for solo travelers and groups.",
+      "Michele owns Two Roads. Her focus is cruises, travel through Europe, luxury experiences, and trips for solo travelers and groups.",
       "Whether you are taking your first trip on your own or bringing a group of friends along, she builds the trip around the people on it, and she stays in your corner until you are home.",
     ],
-    portrait: "team/michelle",
+    portrait: "team/michele",
     road: "discover",
   },
   {
-    key: "shannon",
-    name: "Shannon",
+    key: "sarah",
+    name: "Sarah",
     role: "Travel advisor",
     relation: "The daughter",
     specialties: ["Family vacations", "Honeymoons", "Destination weddings"],
     short: "Family vacations, honeymoons and destination weddings.",
     bio: [
-      "Shannon plans the trips people talk about for years: family vacations, honeymoons and destination weddings.",
+      "Sarah plans the trips people talk about for years: family vacations, honeymoons and destination weddings.",
       "She takes care of the moving parts, so you can be fully present for the moments that matter, whether that is your kids' first look at the ocean or your first dance as a married couple.",
     ],
-    portrait: "team/shannon",
+    portrait: "team/sarah",
     road: "unwind",
   },
 ];
@@ -55,7 +55,7 @@ export const TEAM: Advisor[] = [
 export const WHY_US = [
   {
     title: "You know who you are talking to.",
-    body: "Not a call center, not a chatbot. Michelle or Shannon, by name, from the first idea to the flight home.",
+    body: "Not a call center, not a chatbot. Michele or Sarah, by name, from the first idea to the flight home.",
   },
   {
     title: "Two specialists, one family.",

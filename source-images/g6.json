@@ -5,27 +5,27 @@
     "file": "source-images/team/together.webp",
     "source": "Client",
     "grade": false,
-    "alt": "Michelle and Shannon smiling together by the sea, Michelle in a white jacket and Shannon in a pink dress, with palm trees and turquoise water behind them",
+    "alt": "Michele and Sarah smiling together by the sea, Michele in a white jacket and Sarah in a pink dress, with palm trees and turquoise water behind them",
     "focal": "50% 35%"
   },
   {
     "section": "team",
-    "key": "michelle",
+    "key": "michele",
     "file": "source-images/team/together.webp",
     "source": "Client",
     "grade": false,
     "crop": { "left": 90, "top": 50, "width": 472, "height": 590 },
-    "alt": "Portrait of Michelle, owner of Two Roads Travel Service, smiling by the sea",
+    "alt": "Portrait of Michele, owner of Two Roads Travel Service, smiling by the sea",
     "focal": "50% 40%"
   },
   {
     "section": "team",
-    "key": "shannon",
+    "key": "sarah",
     "file": "source-images/team/together.webp",
     "source": "Client",
     "grade": false,
     "crop": { "left": 584, "top": 40, "width": 472, "height": 590 },
-    "alt": "Portrait of Shannon, travel advisor at Two Roads Travel Service, smiling by the sea",
+    "alt": "Portrait of Sarah, travel advisor at Two Roads Travel Service, smiling by the sea",
     "focal": "50% 40%"
   },
   {
@@ -34,7 +34,7 @@
     "file": "source-images/team/workshop.jpg",
     "source": "Client",
     "grade": false,
-    "alt": "Shannon and Michelle side by side in matching floral aprons at a hands-on workshop",
+    "alt": "Sarah and Michele side by side in matching floral aprons at a hands-on workshop",
     "focal": "44% 40%"
   },
   {
@@ -43,7 +43,7 @@
     "file": "source-images/team/toast.jpg",
     "source": "Client",
     "grade": false,
-    "alt": "Michelle and Shannon raising a glass of red wine and a flute of sparkling wine to the camera",
+    "alt": "Michele and Sarah raising a glass of red wine and a flute of sparkling wine to the camera",
     "focal": "50% 45%"
   },
   {
@@ -52,7 +52,7 @@
     "file": "source-images/team/summit.jpg",
     "source": "Client",
     "grade": false,
-    "alt": "Michelle takes a windswept selfie at a rocky lookout, with Shannon and a travel companion behind her and the island spread out below",
+    "alt": "Michele takes a windswept selfie at a rocky lookout, with Sarah and a travel companion behind her and the island spread out below",
     "focal": "50% 40%"
   }
 ]
