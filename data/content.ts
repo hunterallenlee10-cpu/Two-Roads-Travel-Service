@@ -1,6 +1,7 @@
 import type { ImageId } from "@/lib/images";
 
 export const TRUST_ITEMS = [
+  "A mother and daughter team",
   "Virtuoso affiliated",
   "Uniglobe Travel Center network",
   "Personal advisor from first idea to final flight home",
@@ -54,7 +55,7 @@ export const FAQS: Faq[] = [
   },
   {
     q: "Do you plan destination weddings and groups?",
-    a: "Yes. Destination weddings, honeymoons, family trips and group travel are all part of what we plan. Ask your advisor how guest bookings and group details are handled for your trip.",
+    a: "Yes. Shannon specializes in destination weddings, honeymoons and family vacations, and Michelle plans group and solo travel. Ask how guest bookings and group details are handled for your trip.",
   },
   {
     q: "What happens if my flight is cancelled?",
@@ -70,7 +71,7 @@ export const FAQS: Faq[] = [
   },
   {
     q: "How do we get started?",
-    a: "Call 610-849-2302 or open the Trip Matchmaker. Tell us a little about you, and an advisor will reach out within one business day.",
+    a: "Call 610-849-2302 or open the Trip Matchmaker. Tell us a little about you, and Michelle or Shannon will reach out within one business day.",
   },
 ];
 

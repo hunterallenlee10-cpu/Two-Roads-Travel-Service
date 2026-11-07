@@ -21,6 +21,7 @@ export const PRIMARY_NAV: NavLink[] = [
   { label: "Destinations", href: "/destinations" },
   { label: "Journeys", href: "/#journeys" },
   { label: "Why an Advisor", href: "/why-an-advisor" },
+  { label: "About Us", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -53,6 +54,7 @@ export const FOOTER_NAV: { title: string; links: NavLink[] }[] = [
   {
     title: "Help",
     links: [
+      { label: "Meet Our Team", href: "/about" },
       { label: "Travel Resources", href: "/resources" },
       { label: "Customer Service", href: "/contact#customer-service" },
       { label: "Why Use a Travel Advisor", href: "/why-an-advisor" },
