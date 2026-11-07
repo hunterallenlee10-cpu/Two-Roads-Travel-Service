@@ -1,6 +1,8 @@
 // Optimizes the source photography into /public/images and writes a typed manifest.
 // Run: npm run images
 // Input:  source-images/<section>/<key>.jpg  + source-images/g*.json (metadata from sourcing)
+//         Entries with "source": "Client" are the team's own photos: committed, never credited to Pexels.
+//         Optional per entry: "grade": false skips the warm grade, "crop": {left, top, width, height} cuts a region first.
 // Output: public/images/<section>/<key>.webp + .avif, data/images.generated.json
 import { readFile, writeFile, mkdir, readdir, stat } from "node:fs/promises";
 import path from "node:path";
@@ -11,7 +13,7 @@ const SRC = path.join(ROOT, "source-images");
 const OUT = path.join(ROOT, "public", "images");
 
 // Max output width per section. Hero is full-bleed, cards are smaller.
-const WIDTH = { hero: 2400, cta: 2000, journeys: 2000, pages: 2000, atlas: 1800, how: 1600, styles: 1200, destinations: 1200 };
+const WIDTH = { hero: 2400, cta: 2000, journeys: 2000, pages: 2000, atlas: 1800, how: 1600, styles: 1200, destinations: 1200, team: 1400 };
 
 // A shared warm, slightly filmic grade so every photo reads as one story.
 // Gentle warm shift, a touch less saturation, lifted blacks.
@@ -50,10 +52,21 @@ function parseFocal(text = "") {
   return `${x}% ${y}%`;
 }
 
+async function readJson(file, fallback) {
+  try {
+    return JSON.parse(await readFile(file, "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+
 async function main() {
   const files = (await readdir(SRC)).filter((f) => /^g\d+\.json$/.test(f)).sort();
   const manifest = {};
   const credits = [];
+  // Raw Pexels downloads are gitignored. When one is missing, keep its last good output instead of dropping it.
+  const previous = await readJson(path.join(ROOT, "data", "images.generated.json"), {});
+  const previousCredits = await readJson(path.join(ROOT, "data", "credits.generated.json"), []);
   for (const f of files) {
     const entries = JSON.parse(await readFile(path.join(SRC, f), "utf8"));
     for (const e of entries) {
@@ -62,7 +75,14 @@ async function main() {
       try {
         await stat(input);
       } catch {
-        console.warn(`! missing source for ${id}`);
+        if (previous[id]) {
+          manifest[id] = previous[id];
+          const credit = previousCredits.find((c) => c.id === id);
+          if (credit) credits.push(credit);
+          process.stdout.write(`= ${id} (no source, kept existing output)\n`);
+        } else {
+          console.warn(`! missing source for ${id}`);
+        }
         continue;
       }
       const max = WIDTH[e.section] ?? 1600;
@@ -70,7 +90,11 @@ async function main() {
       const webp = path.join(OUT, e.section, `${e.key}.webp`);
       const avif = path.join(OUT, e.section, `${e.key}.avif`);
       const fresh = await isFresh(input, [webp, avif]);
-      const base = sharp(input).rotate().resize({ width: max, withoutEnlargement: true }).recomb(WARM).modulate({ saturation: 0.96 }).linear(0.97, 4);
+      let base = sharp(input).rotate();
+      if (e.crop) base = sharp(await base.toBuffer()).extract(e.crop);
+      base = base.resize({ width: max, withoutEnlargement: true });
+      // Real people keep their real skin tones: client photos can opt out of the grade.
+      if (e.grade !== false) base = base.recomb(WARM).modulate({ saturation: 0.96 }).linear(0.97, 4);
       // Skip the slow encode when outputs are newer than the source.
       const buf = fresh ? await readFile(webp) : await base.toBuffer();
       const meta = await sharp(buf).metadata();
@@ -88,7 +112,7 @@ async function main() {
         alt: e.alt,
         position: parseFocal(e.focal),
       };
-      credits.push({ id, section: e.section, photographer: e.photographer, pageUrl: e.pageUrl, license: e.license, source: e.source });
+      if (e.source !== "Client") credits.push({ id, section: e.section, photographer: e.photographer, pageUrl: e.pageUrl, license: e.license, source: e.source });
       process.stdout.write(`✓ ${id} ${meta.width}x${meta.height}\n`);
     }
   }

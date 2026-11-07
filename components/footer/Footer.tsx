@@ -53,7 +53,7 @@ export function Footer() {
           </div>
           <div className="space-y-1 md:text-right">
             <p>
-              Photography by Pexels contributors.{" "}
+              Team photos are our own. Destination photography by Pexels contributors.{" "}
               <Link href="/credits" className="underline decoration-mist/40 underline-offset-4 hover:text-sand">
                 Photo credits
               </Link>

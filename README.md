@@ -38,6 +38,7 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 | Site info, phone, legal line, nav | `data/site.ts` |
 | Travel styles, destinations, journeys | `data/styles.ts`, `data/destinations.ts`, `data/journeys.ts` |
 | Steps, comparison, FAQ, sample reviews | `data/content.ts` |
+| Team bios, specialties, "why us", candid photos | `data/team.ts` (homepage section `components/home/MeetTheTeam.tsx`, page `/about`) |
 | Travel resources copy | `data/resources.ts` |
 | Image manifest (generated) | `data/images.generated.json` |
 | Photo credits | `CREDITS.md`, and `/credits` on the site |
@@ -50,7 +51,8 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 4. **Site URL**: set `NEXT_PUBLIC_SITE_URL` to the live domain so canonical and Open Graph URLs are absolute.
 5. **Search indexing**: the site ships with `robots: noindex, nofollow` because it is a concept preview of a real business. Remove it in `app/layout.tsx` when the client approves launch.
 6. **Featured journey prices** (`data/journeys.ts`): as listed on the client's current site. Confirm before launch.
-7. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
+7. **Team bios** (`data/team.ts`): drafted from what the client shared (Michelle owns the agency; her daughter Shannon is an advisor; their specialties). Have Michelle and Shannon read and personalize them. Confirm the daughter's name: the client's note said "Sarah", the photo handoff said "Shannon". Team photos live in `source-images/team/` (committed) and are listed in `source-images/g6.json`.
+8. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
 
 ## Notes
 
