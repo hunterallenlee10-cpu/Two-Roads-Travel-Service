@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid gap-14 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <Link href="/" aria-label="Two Roads Travel Service, home" className="inline-block">
-              <Wordmark size="lg" />
+              <Wordmark tone="light" size="lg" />
             </Link>
             <p className="font-display mt-8 max-w-[22ch] text-[clamp(1.75rem,2.6vw,2.5rem)] leading-tight font-light italic">
               {SITE.signature}
