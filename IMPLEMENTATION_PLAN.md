@@ -47,7 +47,7 @@ Stack: Next.js 16 (App Router) + TypeScript + Tailwind CSS 4, framer-motion, gsa
 - [x] Reviews: 3 sample cards with "Sample review" tag and "Client name" placeholders
 - [x] FAQ accordion (7)
 - [x] Final CTA: golden-hour fork, Frost line, parallax
-- [x] Footer: wordmark, phone, all original pages, Seller of Travel line, Lee Enterprises credit
+- [x] Footer: wordmark, phone, all original pages, Seller of Travel line, "Built and operated by Lee Enterprises Unlimited" credit linking to leeenterprisesunlimited.com
 
 ## 5. Inner pages
 - [x] Travel style template (`/[slug]`): cruises, river-cruises, all-inclusives, destination-weddings, vacations, tours, luxury-escapes, resort-packages, short-stays, sporting-active, hot-deals, new-destinations

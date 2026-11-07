@@ -58,7 +58,19 @@ export function Footer() {
                 Photo credits
               </Link>
             </p>
-            <p>{SITE.credit}</p>
+            <p>
+              {SITE.credit.prefix}{" "}
+              <a
+                href={SITE.credit.url}
+                target="_blank"
+                rel="noopener"
+                className="underline decoration-mist/40 underline-offset-4 hover:text-sand"
+              >
+                {SITE.credit.name}
+                <span className="sr-only"> (opens in a new tab)</span>
+              </a>
+              .
+            </p>
           </div>
         </div>
       </div>
