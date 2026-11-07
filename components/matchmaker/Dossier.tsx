@@ -33,7 +33,7 @@ export function Dossier({ answers, reference, onClose }: { answers: TripAnswers;
         className="print-dossier relative overflow-hidden border border-ink/15 bg-paper shadow-[0_40px_80px_-40px_rgba(14,42,51,0.45)]"
       >
         <div className="flex items-center justify-between border-b border-ink/10 px-6 py-5 md:px-12">
-          <Wordmark road={road} />
+          <Wordmark />
           <span className="eyebrow text-right text-ink-muted">
             Trip Dossier
             <span className="block text-ink">{reference}</span>

@@ -18,7 +18,8 @@ Other scripts:
 
 ```bash
 npm run images       # re-optimize photos from source-images/ (sharp: warm grade, AVIF + WebP, blur placeholders)
-npm run og           # re-render public/og-image.png and app/apple-icon.png
+npm run og           # re-render public/og-image.png
+python3 scripts/make-logo.py  # re-cut the logo (source-images/brand/) into public/brand/*, app/icon.png and app/apple-icon.png
 npm run lint
 ```
 
