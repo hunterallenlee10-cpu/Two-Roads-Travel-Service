@@ -7,7 +7,11 @@ export const SITE = {
   tagline: "Travel better with a personalized travel experience.",
   network: "Part of the Uniglobe Travel Center network. Virtuoso affiliated.",
   legal: "Florida Seller of Travel Reg. No. ST32940, CST 2055333-40",
-  credit: "Concept preview by Lee Enterprises Unlimited.",
+  credit: {
+    prefix: "Built and operated by",
+    name: "Lee Enterprises Unlimited",
+    url: "https://www.leeenterprisesunlimited.com/",
+  },
   // PLACEHOLDER: set NEXT_PUBLIC_SITE_URL to the live domain when deployed.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   description:
