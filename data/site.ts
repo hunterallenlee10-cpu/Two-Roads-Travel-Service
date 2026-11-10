@@ -12,8 +12,8 @@ export const SITE = {
     name: "Lee Enterprises Unlimited",
     url: "https://www.leeenterprisesunlimited.com/",
   },
-  // PLACEHOLDER: set NEXT_PUBLIC_SITE_URL to the live domain when deployed.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  // The live domain. NEXT_PUBLIC_SITE_URL (set in Vercel) can override it.
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://tworoadstravelservice.com",
   description:
     "Two Roads Travel Service plans cruises, river cruises, all-inclusives, destination weddings and tours with a personal advisor who takes the time to get you. We get you and we get you there.",
 } as const;
