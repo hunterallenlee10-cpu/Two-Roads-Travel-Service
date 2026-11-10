@@ -75,18 +75,25 @@ export const FAQS: Faq[] = [
   },
 ];
 
-/** Sample reviews. Replace with real client reviews before launch. */
-export const REVIEWS = [
-  {
-    quote: "They asked questions no booking site ever asked. The trip felt like it was built for the two of us.",
-    trip: "Trip type placeholder",
-  },
-  {
-    quote: "Our flight was cancelled on the way home. One call, and someone was working on it while we found dinner.",
-    trip: "Trip type placeholder",
-  },
-  {
-    quote: "Forty guests, one beach, zero stress for us. We just showed up and got married.",
-    trip: "Trip type placeholder",
-  },
-];
+/** Where the agency's verified client reviews live. Figures as shown on the public profile. */
+export const REVIEW_SOURCE = {
+  name: "Virtuoso",
+  url: "https://www.virtuoso.com/advisor/michshan75909/travel/advisors/16175909",
+  recommended: "100%",
+  count: 13,
+  note: "All reviews are from confirmed guests.",
+};
+
+export type Review = {
+  quote: string;
+  /** Name exactly as the reviewer signed it, e.g. "Jen M." */
+  name: string;
+  /** Optional: where or how they traveled, e.g. "Honeymoon in St. Lucia". */
+  trip?: string;
+};
+
+/**
+ * Real client reviews, copied word for word from the Virtuoso profile above.
+ * Empty until the text is pasted in. While empty, the section shows the verified rating and a link instead.
+ */
+export const REVIEWS: Review[] = [];

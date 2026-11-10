@@ -38,7 +38,7 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 | Inner page template | `components/pages/StylePage.tsx` + `data/pages.ts` |
 | Site info, phone, legal line, nav | `data/site.ts` |
 | Travel styles, destinations, journeys | `data/styles.ts`, `data/destinations.ts`, `data/journeys.ts` |
-| Steps, comparison, FAQ, sample reviews | `data/content.ts` |
+| Steps, comparison, FAQ, reviews | `data/content.ts` |
 | Team bios, specialties, "why us", candid photos | `data/team.ts` (homepage section `components/home/MeetTheTeam.tsx`, page `/about`) |
 | Travel resources copy | `data/resources.ts` |
 | Image manifest (generated) | `data/images.generated.json` |
@@ -46,7 +46,7 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 
 ## Before launch: placeholders to replace
 
-1. **Reviews** (`data/content.ts`, `REVIEWS`): three sample quotes, tagged on the page as "Sample review, replace with real client reviews", with "Client name" and "Trip type placeholder". Replace with real, permissioned reviews.
+1. **Reviews** (`data/content.ts`, `REVIEWS` and `REVIEW_SOURCE`): the section shows the verified Virtuoso rating (100% recommended, 13 reviews) and links to the profile. Virtuoso blocks automated copying, so paste review text into `REVIEWS` word for word (quote, name as signed, optional trip) and the cards appear. Update `REVIEW_SOURCE.count` if the number changes.
 2. **Office hours** (`app/contact/page.tsx`): "Office hours: add hours here".
 3. **Lead delivery** (`lib/submit.ts`): `submitTripRequest()` logs the payload and shows the success state. Wire it to a webhook (n8n, Zapier, CRM). The TODO shows how.
 4. **Site URL**: set `NEXT_PUBLIC_SITE_URL` to the live domain so canonical and Open Graph URLs are absolute.
