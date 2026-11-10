@@ -33,7 +33,7 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 |---|---|
 | Homepage sections | `components/home/*` |
 | Trip Matchmaker (code-split) | `components/matchmaker/*` |
-| Where leads are sent | `lib/submit.ts` → `submitTripRequest()` |
+| Where leads are sent | `lib/submit.ts` → `/api/lead` → n8n → Michele's email |
 | Road state + localStorage | `components/providers/RoadProvider.tsx`, `lib/road.ts` |
 | Inner page template | `components/pages/StylePage.tsx` + `data/pages.ts` |
 | Site info, phone, legal line, nav | `data/site.ts` |
@@ -48,7 +48,7 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 
 1. **Reviews** (`data/content.ts`, `REVIEWS` and `REVIEW_SOURCE`): the section shows the verified Virtuoso rating (100% recommended, 13 reviews) and links to the profile. Four reviews from the profile are on the page. Virtuoso blocks automated copying, so add more by pasting review text into `REVIEWS` word for word (quote, name as signed, optional trip) and the cards appear. Update `REVIEW_SOURCE.count` if the number changes.
 2. **Office hours** (`app/contact/page.tsx`): "Office hours: add hours here".
-3. **Lead delivery** (`lib/submit.ts`): `submitTripRequest()` logs the payload and shows the success state. Wire it to a webhook (n8n, Zapier, CRM). The TODO shows how.
+3. **Lead delivery**: done. Matchmaker and call-back requests post to `/api/lead` (`app/api/lead/route.ts`), which builds the email (`lib/lead-email.ts`) and forwards it to the n8n workflow "Two Roads: Website leads to Michele". n8n checks the site key and emails mshannon@tworoadstravelservice.com from the connected Gmail, with reply-to set to the traveler. Vercel production env: `LEAD_WEBHOOK_URL`, `LEAD_WEBHOOK_SECRET` (must match the key in the workflow's "Valid Site Key?" step). If sending fails, the form asks the visitor to call instead.
 4. **Site URL**: done. The site uses https://tworoadstravelservice.com (`NEXT_PUBLIC_SITE_URL` in Vercel, with the same default in `data/site.ts`).
 5. **Search indexing**: done. The site is open to search engines, with `app/robots.ts` and `app/sitemap.ts`. Submit `https://tworoadstravelservice.com/sitemap.xml` in Google Search Console to speed up indexing.
 6. **Featured journey prices** (`data/journeys.ts`): as listed on the client's current site. Confirm before launch.

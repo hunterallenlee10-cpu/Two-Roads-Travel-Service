@@ -8,6 +8,8 @@ import { lockScroll, unlockScroll } from "@/lib/scroll";
 import { useFocusTrap } from "@/lib/useFocusTrap";
 import { makeReference, submitTripRequest } from "@/lib/submit";
 import { useMatchmaker } from "@/components/providers/MatchmakerProvider";
+import { Honeypot, honeypotValue } from "@/components/ui/Honeypot";
+import { SITE } from "@/data/site";
 import { useRoad } from "@/components/providers/RoadProvider";
 import { ForkGlyph } from "@/components/brand/ForkGlyph";
 import { Dossier } from "./Dossier";
@@ -59,6 +61,7 @@ export default function Matchmaker() {
   const dialog = useRef<HTMLDivElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const scroller = useRef<HTMLDivElement>(null);
+  const form = useRef<HTMLFormElement>(null);
   const [dir, setDir] = useState(1);
   const [error, setError] = useState<string | null>(null);
   const [errors, setErrors] = useState<ContactErrors>({});
@@ -116,13 +119,19 @@ export default function Matchmaker() {
     }
     setSubmitting(true);
     const ref = makeReference();
-    await submitTripRequest({
+    const { ok } = await submitTripRequest({
       type: "trip-request",
       submittedAt: new Date().toISOString(),
       reference: ref,
       answers,
       page: window.location.pathname,
+      website: honeypotValue(form.current),
     });
+    if (!ok) {
+      setSubmitting(false);
+      setError(`Sorry, that did not send. Please try again, or call us at ${SITE.phone}.`);
+      return;
+    }
     setReference(ref);
     setSubmitting(false);
     setDone(true);
@@ -203,13 +212,15 @@ export default function Matchmaker() {
           </p>
 
           <form
+            ref={form}
             noValidate
             onSubmit={(e) => {
               e.preventDefault();
               next();
             }}
-            className="print-reset flex min-h-0 flex-1 flex-col"
+            className="print-reset relative flex min-h-0 flex-1 flex-col"
           >
+            <Honeypot />
             <div ref={scroller} data-lenis-prevent className="print-reset min-h-0 flex-1 overflow-y-auto overscroll-contain">
               <div className="mx-auto w-full max-w-6xl px-[var(--gutter)] py-10 md:py-16">
                 <AnimatePresence mode="wait" custom={dir} initial={false}>

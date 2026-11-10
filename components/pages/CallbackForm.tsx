@@ -6,6 +6,8 @@ import { CALL_TIMES } from "@/data/matchmaker";
 import { makeReference, submitTripRequest } from "@/lib/submit";
 import { Chip } from "@/components/matchmaker/Choice";
 import { TeamAvatars } from "@/components/ui/TeamAvatars";
+import { Honeypot, honeypotValue } from "@/components/ui/Honeypot";
+import { SITE } from "@/data/site";
 
 /** A short "call me back" form. Uses the same submitTripRequest() as the Matchmaker. */
 export function CallbackForm() {
@@ -13,10 +15,11 @@ export function CallbackForm() {
   const [phone, setPhone] = useState("");
   const [callTime, setCallTime] = useState<string | null>(null);
   const [errors, setErrors] = useState<{ name?: string; phone?: string }>({});
-  const [state, setState] = useState<"idle" | "sending" | "sent">("idle");
+  const [state, setState] = useState<"idle" | "sending" | "sent" | "failed">("idle");
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    const form = e.currentTarget as HTMLFormElement;
     const errs: typeof errors = {};
     if (!name.trim()) errs.name = "Please add your name.";
     if (phone.replace(/\D/g, "").length < 10) errs.phone = "Please add a phone number with area code.";
@@ -26,14 +29,15 @@ export function CallbackForm() {
       return;
     }
     setState("sending");
-    await submitTripRequest({
+    const { ok } = await submitTripRequest({
       type: "callback",
       submittedAt: new Date().toISOString(),
       reference: makeReference(),
       answers: { name, phone, callTime },
       page: window.location.pathname,
+      website: honeypotValue(form),
     });
-    setState("sent");
+    setState(ok ? "sent" : "failed");
   };
 
   if (state === "sent") {
@@ -81,7 +85,8 @@ export function CallbackForm() {
   );
 
   return (
-    <form noValidate onSubmit={onSubmit} className="space-y-8">
+    <form noValidate onSubmit={onSubmit} className="relative space-y-8">
+      <Honeypot />
       <div className="grid gap-8 sm:grid-cols-2">
         {input("cb-name", "Your name", name, setName, "text", "name", errors.name)}
         {input("cb-phone", "Phone", phone, setPhone, "tel", "tel", errors.phone)}
@@ -109,6 +114,15 @@ export function CallbackForm() {
           "Request a call"
         )}
       </button>
+      {state === "failed" && (
+        <p role="alert" className="text-sm font-medium text-terracotta-deep">
+          Sorry, that did not send. Please try again, or call us at{" "}
+          <a href={SITE.phoneHref} className="underline underline-offset-4">
+            {SITE.phone}
+          </a>
+          .
+        </p>
+      )}
     </form>
   );
 }
