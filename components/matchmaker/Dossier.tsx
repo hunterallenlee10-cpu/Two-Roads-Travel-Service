@@ -6,6 +6,7 @@ import { SITE } from "@/data/site";
 import { ROADS } from "@/lib/road";
 import { ForkGlyph } from "@/components/brand/ForkGlyph";
 import { Wordmark } from "@/components/brand/Wordmark";
+import { TeamAvatars } from "@/components/ui/TeamAvatars";
 
 function roadTitle(road: TripAnswers["road"]) {
   if (road === "unwind" || road === "discover") return ROADS[road].title;
@@ -67,6 +68,7 @@ export function Dossier({ answers, reference, onClose }: { answers: TripAnswers;
 
           <div className="mt-10 grid gap-6 md:grid-cols-[1fr_auto] md:items-end">
             <div>
+              <TeamAvatars size="h-14 w-14" className="mb-5" />
               <p className="font-display text-2xl leading-snug">
                 {firstName ? `Thank you, ${firstName}.` : "Thank you."} Michele or Sarah will reach out within one business day.
               </p>

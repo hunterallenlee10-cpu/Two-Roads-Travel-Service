@@ -15,7 +15,10 @@ export type Advisor = {
   specialties: string[];
   short: string;
   bio: string[];
+  /** Large 4:5 photo for the About page. */
   portrait: ImageId;
+  /** Square headshot for round avatars. */
+  avatar: ImageId;
   /** The road her specialties lean toward. Highlights her card when a visitor picks that road. */
   road: Road;
 };
@@ -33,6 +36,7 @@ export const TEAM: Advisor[] = [
       "Whether you are taking your first trip on your own or bringing a group of friends along, she builds the trip around the people on it, and she stays in your corner until you are home.",
     ],
     portrait: "team/michele",
+    avatar: "team/michele-avatar",
     road: "discover",
   },
   {
@@ -47,6 +51,7 @@ export const TEAM: Advisor[] = [
       "She takes care of the moving parts, so you can be fully present for the moments that matter, whether that is your kids' first look at the ocean or your first dance as a married couple.",
     ],
     portrait: "team/sarah",
+    avatar: "team/sarah-avatar",
     road: "unwind",
   },
 ];

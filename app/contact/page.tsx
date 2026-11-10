@@ -5,6 +5,7 @@ import { PageHero } from "@/components/pages/PageHero";
 import { CallbackForm } from "@/components/pages/CallbackForm";
 import { PlanTripButton } from "@/components/ui/PlanTripButton";
 import { Reveal } from "@/components/ui/Motion";
+import { TeamAvatars } from "@/components/ui/TeamAvatars";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -42,7 +43,10 @@ export default function ContactPage() {
         <div className="px-gutter mx-auto grid max-w-[1680px] gap-6 lg:grid-cols-12">
           <Reveal className="on-dark grain relative flex flex-col justify-between bg-ink p-8 text-sand md:p-12 lg:col-span-5">
             <div className="relative z-10">
-              <p className="eyebrow text-ember">Call us</p>
+              <div className="flex items-center gap-4">
+                <TeamAvatars size="h-14 w-14" ring="ring-ink" />
+                <p className="eyebrow text-ember">Call Michele or Sarah</p>
+              </div>
               <a href={SITE.phoneHref} className="font-display mt-6 block text-[clamp(2.5rem,5vw,4.75rem)] leading-none font-light hover:text-ember">
                 {SITE.phone}
               </a>
