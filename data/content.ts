@@ -90,10 +90,42 @@ export type Review = {
   name: string;
   /** Optional: where or how they traveled, e.g. "Honeymoon in St. Lucia". */
   trip?: string;
+  /** Date shown on the review, e.g. "June 2026". */
+  date?: string;
 };
 
 /**
- * Real client reviews, copied word for word from the Virtuoso profile above.
- * Empty until the text is pasted in. While empty, the section shows the verified rating and a link instead.
+ * Real client reviews, copied word for word from the Virtuoso profile above, newest first.
+ * If this list is empty, the section shows only the verified rating and a link.
  */
-export const REVIEWS: Review[] = [];
+export const REVIEWS: Review[] = [
+  {
+    quote:
+      "Our stay at the Fairmont Pacific Rim was absolutely exceptional and exceeded every expectation. Michele Shannon recommended this hotel, and it was the perfect choice for our visit to Vancouver. The property is stunning—beautifully designed, luxurious, and perfectly located. One of our favorite perks was the courtesy car service, which made getting around the city so convenient and added an extra touch of VIP treatment. The Virtuoso amenities were wonderful, especially the delicious breakfast, which was a fantastic way to start each day. The staff was warm, attentive, and provided impeccable service throughout our stay. From the elegant accommodations to the thoughtful amenities and outstanding service, the Fairmont Pacific Rim delivered an unforgettable experience. We are so grateful to Michele Shannon for her excellent recommendation and would highly recommend both this hotel and booking through her expertise.",
+    name: "Des",
+    trip: "Fairmont Pacific Rim, Vancouver",
+    date: "June 2026",
+  },
+  {
+    // The reviewer opened with "⭐️⭐️⭐️⭐️⭐️ Review for Michele Shannon, Two Roads Travel Service". That heading is left off here.
+    quote:
+      "Michele is absolutely incredible! She goes above and beyond every single time to make sure my trips are seamless and stress-free. From flights and hotels to unique experiences, everything is perfectly planned down to the smallest detail. Her knowledge, professionalism, and personal touch make every journey unforgettable. I never have to worry because Michele anticipates my needs and delivers exceptional service. If you want a travel advisor who truly cares and consistently exceeds expectations, Michele is the one",
+    name: "Biagio",
+    trip: "Always above and beyond",
+    date: "November 2025",
+  },
+  {
+    quote:
+      "I had an amazing experience working with Michele Shannon from Two Roads Travel Service! She found me the perfect hotel — The Crawford Hotel, located right inside Denver’s Union Station. The location couldn't have been more convenient, especially arriving by train. The hotel was stunning, comfortable, and full of charm, with great amenities and easy access to everything downtown. Michele really listened to what I was looking for and made the whole process seamless. Her attention to detail and knowledge of the area made all the difference. I highly recommend Michele and Two Roads Travel Service for anyone looking for expert, personalized travel planning!",
+    name: "Ray D",
+    trip: "The Crawford Hotel, Denver",
+    date: "May 2025",
+  },
+  {
+    quote:
+      "Michele was excellent to work with and promptly answered any questions. She was also very knowledgeable about Oceania and provided helpful insights.",
+    name: "Ray D",
+    trip: "Oceania cruise",
+    date: "December 2024",
+  },
+];

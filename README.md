@@ -46,7 +46,7 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 
 ## Before launch: placeholders to replace
 
-1. **Reviews** (`data/content.ts`, `REVIEWS` and `REVIEW_SOURCE`): the section shows the verified Virtuoso rating (100% recommended, 13 reviews) and links to the profile. Virtuoso blocks automated copying, so paste review text into `REVIEWS` word for word (quote, name as signed, optional trip) and the cards appear. Update `REVIEW_SOURCE.count` if the number changes.
+1. **Reviews** (`data/content.ts`, `REVIEWS` and `REVIEW_SOURCE`): the section shows the verified Virtuoso rating (100% recommended, 13 reviews) and links to the profile. Four reviews from the profile are on the page. Virtuoso blocks automated copying, so add more by pasting review text into `REVIEWS` word for word (quote, name as signed, optional trip) and the cards appear. Update `REVIEW_SOURCE.count` if the number changes.
 2. **Office hours** (`app/contact/page.tsx`): "Office hours: add hours here".
 3. **Lead delivery** (`lib/submit.ts`): `submitTripRequest()` logs the payload and shows the success state. Wire it to a webhook (n8n, Zapier, CRM). The TODO shows how.
 4. **Site URL**: set `NEXT_PUBLIC_SITE_URL` to the live domain so canonical and Open Graph URLs are absolute.

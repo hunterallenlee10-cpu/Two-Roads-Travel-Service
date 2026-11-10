@@ -43,17 +43,24 @@ export function Reviews() {
         </Reveal>
 
         {REVIEWS.length > 0 && (
-          <ul className="mt-6 grid gap-6 md:grid-cols-3">
+          <ul className="mt-6 gap-6 md:columns-2">
             {REVIEWS.map((r, i) => (
-              <Reveal as="li" key={r.name + i} delay={i * 0.1} className="flex flex-col justify-between border border-ink/12 bg-sand p-7 md:p-9">
-                <blockquote className="font-display text-[1.5rem] leading-[1.25] font-light md:text-[1.7rem]">
-                  <span aria-hidden className="mb-2 block text-5xl leading-none text-terracotta">“</span>
-                  {r.quote}
-                </blockquote>
-                <footer className="mt-10 border-t border-ink/10 pt-6">
-                  <span className="block text-sm font-semibold">{r.name}</span>
-                  <span className="block text-sm text-ink-muted">{r.trip ? `${r.trip} · ` : ""}Verified on {s.name}</span>
-                </footer>
+              <Reveal as="li" key={r.name + i} delay={(i % 2) * 0.1} className="mb-6 break-inside-avoid border border-ink/12 bg-sand p-7 md:p-9">
+                <figure>
+                  <blockquote className={`font-display font-light ${r.quote.length > 400 ? "text-[1.15rem] leading-[1.55] md:text-[1.25rem]" : "text-[1.4rem] leading-[1.35] md:text-[1.6rem]"}`}>
+                    <span aria-hidden className="mb-2 block text-5xl leading-none text-terracotta">“</span>
+                    {r.quote}
+                  </blockquote>
+                  <figcaption className="mt-8 flex flex-wrap items-end justify-between gap-x-6 gap-y-2 border-t border-ink/10 pt-6">
+                    <span>
+                      <span className="block text-sm font-semibold">{r.name}</span>
+                      {r.trip && <span className="block text-sm text-ink-muted">{r.trip}</span>}
+                    </span>
+                    <span className="eyebrow text-[0.62rem] text-ink-muted">
+                      {r.date ? `${r.date} · ` : ""}Verified on {s.name}
+                    </span>
+                  </figcaption>
+                </figure>
               </Reveal>
             ))}
           </ul>
