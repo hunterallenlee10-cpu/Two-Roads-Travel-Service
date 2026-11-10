@@ -44,15 +44,18 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 | Image manifest (generated) | `data/images.generated.json` |
 | Photo credits | `CREDITS.md`, and `/credits` on the site |
 
-## Before launch: placeholders to replace
+## Launch status
 
-1. **Reviews** (`data/content.ts`, `REVIEWS` and `REVIEW_SOURCE`): the section shows the verified Virtuoso rating (100% recommended, 13 reviews) and links to the profile. Four reviews from the profile are on the page. Virtuoso blocks automated copying, so add more by pasting review text into `REVIEWS` word for word (quote, name as signed, optional trip) and the cards appear. Update `REVIEW_SOURCE.count` if the number changes.
-2. **Lead delivery**: done. Matchmaker and call-back requests post to `/api/lead` (`app/api/lead/route.ts`), which builds the email (`lib/lead-email.ts`) and forwards it to the n8n workflow "Two Roads: Website leads to Michele". n8n checks the site key and emails mshannon@tworoadstravelservice.com from the connected Gmail, with reply-to set to the traveler. Vercel production env: `LEAD_WEBHOOK_URL`, `LEAD_WEBHOOK_SECRET` (must match the key in the workflow's "Valid Site Key?" step). If sending fails, the form asks the visitor to call instead.
-3. **Site URL**: done. The site uses https://tworoadstravelservice.com (`NEXT_PUBLIC_SITE_URL` in Vercel, with the same default in `data/site.ts`).
-4. **Search indexing**: done. The site is open to search engines, with `app/robots.ts` and `app/sitemap.ts`. Submit `https://tworoadstravelservice.com/sitemap.xml` in Google Search Console to speed up indexing.
-5. **Featured journey prices** (`data/journeys.ts`): as listed on the client's current site. Confirm before launch.
-6. **Team bios** (`data/team.ts`): drafted from what the client shared (Michele owns the agency; her daughter Sarah is an advisor; their specialties). Have Michele and Sarah read and personalize them. Team photos live in `source-images/team/` (committed) and are listed in `source-images/g6.json`. Michele's portrait and both round avatars use the headshots the owner sent. Sarah's headshot arrived at 200x200, so her large About-page photo is still cropped from the group photo: ask for a larger version (at least 1000px wide) and add it as her `portrait` entry in `g6.json`.
-7. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
+Live at https://tworoadstravelservice.com. Everything on the launch checklist is done.
+
+1. **Reviews** (`data/content.ts`, `REVIEWS` and `REVIEW_SOURCE`): the verified Virtuoso rating (100% recommended, 13 reviews), a link to the profile, and four reviews copied word for word. Virtuoso and WeddingWire block automated copying, so add more by pasting review text into `REVIEWS` (quote, name as signed, optional trip and date) and the cards appear. Update `REVIEW_SOURCE.count` if the number changes. A wedding, honeymoon or family review would round out the set, since the current four are all about Michele's hotel and cruise bookings.
+2. **Lead delivery**: Matchmaker and call-back requests post to `/api/lead` (`app/api/lead/route.ts`), which builds the email (`lib/lead-email.ts`) and forwards it to the n8n workflow "Two Roads: Website leads to Michele". n8n checks the site key and emails mshannon@tworoadstravelservice.com from the connected Gmail, with reply-to set to the traveler. Vercel production env: `LEAD_WEBHOOK_URL`, `LEAD_WEBHOOK_SECRET` (must match the key in the workflow's "Valid Site Key?" step). If sending fails, the form asks the visitor to call instead. Keep the workflow published and its Gmail credential connected.
+3. **Site URL**: https://tworoadstravelservice.com (`NEXT_PUBLIC_SITE_URL` in Vercel, with the same default in `data/site.ts`).
+4. **Search indexing**: open to search engines, with `app/robots.ts` and `app/sitemap.ts`. Submit `https://tworoadstravelservice.com/sitemap.xml` in Google Search Console to speed up indexing.
+5. **Featured journey prices** (`data/journeys.ts`): approved by Michele. They keep the "As listed, subject to change" disclaimer.
+6. **Team bios and photos** (`data/team.ts`): bios approved by Michele. Photos live in `source-images/team/` (committed) and are listed in `source-images/g6.json`. Michele's portrait and both round avatars use the headshots the owner sent. Sarah's large About-page photo is cropped from the group photo, because her headshot is only 200x200. If a larger one (at least 1000px wide) ever arrives, add it as her `portrait` entry in `g6.json` and run `npm run images`.
+7. **Office hours**: none are published anywhere, so the site does not list any.
+8. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
 
 ## Notes
 

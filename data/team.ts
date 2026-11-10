@@ -4,7 +4,7 @@ import type { Road } from "@/lib/road";
 /**
  * The people behind Two Roads.
  * Facts here come from the client: Michele owns the agency, her daughter Sarah is a travel advisor,
- * and each has her own specialties. Bios are drafts for the client to review and personalize.
+ * and each has her own specialties. Bios approved by Michele.
  */
 export type Advisor = {
   key: "michele" | "sarah";
