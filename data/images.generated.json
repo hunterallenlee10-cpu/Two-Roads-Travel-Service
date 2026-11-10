@@ -562,34 +562,52 @@
     "avif": "/images/team/together.avif",
     "width": 1122,
     "height": 1402,
-    "blur": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYgC06BK38NLQ01m7AAD+Ht0aZGjI516dN0TjxneY8OUsmAHawQwXYUtYtiQ5q5uT2K23W2IpeAm/a3LPW0sfcVvm+Uzo881PxwViJ26PNwIWa3Fj/q8fwJso5fKbAtZm55dexoF9gMdkXMqpxPJSsoaJCNAAAAA=",
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JQBadAlb+GloaazdgAP4e3RpkaMjnXp03ROPGd5jw5SyYAdrBDBdhS1i2JDmrm5PYrbdbYil4Cb9rcs9bSx9xW+b5TOjzzU/HBWInbo83AhZrcWP+rx/Ak55ImxgASQuLb2vKB1rDmDYzp2N7yjd1ZTAmwAAA",
     "alt": "Michele and Sarah smiling together by the sea, Michele in a white jacket and Sarah in a pink dress, with palm trees and turquoise water behind them",
     "position": "50% 35%"
   },
   "team/michele": {
     "src": "/images/team/michele.webp",
     "avif": "/images/team/michele.avif",
-    "width": 472,
-    "height": 590,
-    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JZACdABosTv5SrcViDF2wAP51vnAybmh4Xqn4VouCfyzA3dz0WHrJSsb+YT6LomwbuTUyDn35L8erGM+Tp0I9KVZ7sk7ZWj7cy2bKaNBBl0HgHjStNe36vcxTsC1QniRfAAAA",
-    "alt": "Portrait of Michele, owner of Two Roads Travel Service, smiling by the sea",
+    "width": 800,
+    "height": 1000,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JbACdMoMYPYAAi9gJOwyApxEAAK6RFkcRZ2ycvWBecejvryDnlw87aYITOzz5ONQyPBO8Y95AftZgRLS7rjjwOukZtVbXdRUSAhl5uJ9GHceSZXVUrNcqTrxcQeeiEOL3IGzm1WQY4Vbb594BorsAAAA=",
+    "alt": "Portrait of Michele, owner of Two Roads Travel Service, smiling",
     "position": "50% 40%"
+  },
+  "team/michele-avatar": {
+    "src": "/images/team/michele-avatar.webp",
+    "avif": "/images/team/michele-avatar.avif",
+    "width": 760,
+    "height": 760,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQABAAA4BaJbACdAD1mJ3QHPJwAMgi3SdSAYSKxK+MEwUogkKS7P8eyPr0GR4RLBXHZtI3xtSXixR9w1zrFkmry4IyMNGd3zOkq7tYCUHexlYD97zApOVB3xffuyR9Mx5BVoboAAA=",
+    "alt": "Michele, owner of Two Roads Travel Service",
+    "position": "50% 50%"
   },
   "team/sarah": {
     "src": "/images/team/sarah.webp",
     "avif": "/images/team/sarah.avif",
     "width": 472,
     "height": 590,
-    "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZgCdMoMYAEh4vxi1dxMUQADOMs8Sn4X/CqNfTTeA9xmforkommiGJB2jtnZ3u5p1UDqxrGX6pbdkNl4c0ZEEWfNcpZI6Kjrf46mzKwcyACyalJASWs9xWUd99T2HttJWjnNNrcR567dFyp9bEp6UXcDeNZE6OzCTDK6HR/k8AAAA",
+    "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZgCdMoMjbEh4vxjBhTiI4ADOMs8Sn4X/CqNfTTeA9xmforkommiGJB2jtnZ3u5p1UDqxrGX6pbdkNl4c0ZEEWfNcpZI6Kolexla+pA/8NZPDApuMbmuCEbjF/Fj66kkv0IS8gUJiMwkV7qV9QGIcI2/f6Slg9LQSr+I9baPQAAAA",
     "alt": "Portrait of Sarah, travel advisor at Two Roads Travel Service, smiling by the sea",
     "position": "50% 40%"
+  },
+  "team/sarah-avatar": {
+    "src": "/images/team/sarah-avatar.webp",
+    "avif": "/images/team/sarah-avatar.avif",
+    "width": 200,
+    "height": 200,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQABAAA4BaJYgC7ADFOkA1Q9KAAP4HScJDpLJ5M5LcvZBX5/EFtouQ7Aeylvr7wneOvHzJjBYdi3J3X9J/KLhKhmkbOpVrERoaLsZLC56znNXTrLmYIJnv/AAAAA==",
+    "alt": "Sarah, travel advisor at Two Roads Travel Service",
+    "position": "50% 50%"
   },
   "team/workshop": {
     "src": "/images/team/workshop.webp",
     "avif": "/images/team/workshop.avif",
     "width": 1400,
     "height": 788,
-    "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAkAA4BaJQBOgMWvabM6QAD2u3CRtRP9nK9AL87A/RrfhalPQH0bIzTDY/cab/gPMpL0XXUH08qv7T1I28GtjXFbOuCq8C7H85XB6xEl7zEijdBUwocgAAA=",
+    "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAQCdASoQAAkAA4BaJQBOgBI4TMRkAPatTcUqiPhQZe8/cGWnArb1SLqDte85TNZ2Huvwq7gnkRPq9shpnWn9WBWlft5Bwb20ehUq3/bH6yRYqiulDKjevVVQzbgAAAA=",
     "alt": "Sarah and Michele side by side in matching floral aprons at a hands-on workshop",
     "position": "44% 40%"
   },
@@ -598,7 +616,7 @@
     "avif": "/images/team/toast.avif",
     "width": 1400,
     "height": 1867,
-    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JZgCdAYvq5jOjACzi42zgAP7OAMThavNK/ng7IeHDbODgM+dUoSCxRHG21dSbh4Ol/uFOgL/fJ5o06pFi/U/YFdjbDlDQuDgEsZH6OgcWu3lNAT5nCFW019d+G20zxISQuxc4uNDrGsvbCqsju3kU7bpsakqNnJwgph7Kg+sUs0prw+soAA==",
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JaACdACPg9vocyvHStgtu6gAA/s3/0avisfjPuwKh+NR/ekfdwLanlkcNYW9LjNIFS8zOs/JKsDAp1YFEb475YzDc8NRE6K75fO6ob326vVCHuP9YENFSOVtaR+FzrlKPCP1dXZMl1PegXGuuQkfCWQLf3bFqJz/AgYfQ3c80Fxa8xcPhHAAA",
     "alt": "Michele and Sarah raising a glass of red wine and a flute of sparkling wine to the camera",
     "position": "50% 45%"
   },
@@ -607,7 +625,7 @@
     "avif": "/images/team/summit.avif",
     "width": 1400,
     "height": 1867,
-    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABwBACdASoQABUAPu1iqk2ppaQiMAgBMB2JQBOkERhmfpw8FPqNsNJptp5OAAD+xV405ZHDt1n5gyi47+kh89tob/VPAoZjj7fh+9hBmQQIG2zT0x9Qk3UpMO0VrZF6FunE0pWklqebYsjlm1/SXujL8cUOR6d4ZcRA4vwZn+tn8ljhpX3sN8QzUi1I0AAA",
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOkAfhmfpO/768icRBdPsAA/sVeNOWRw7didUlzan9gc9xSlBho1vNBep0M3J/R7u76j/d1K7B8hpyGh8Bj7BvOdvBgR/jPAslZraXgH19cmagNVasQIn04M/J7JDhYC76XZZFwF+E2YJ+w9cGw0AA=",
     "alt": "Michele takes a windswept selfie at a rocky lookout, with Sarah and a travel companion behind her and the island spread out below",
     "position": "50% 40%"
   }

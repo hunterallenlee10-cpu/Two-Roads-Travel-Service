@@ -40,7 +40,7 @@ export function MeetTheTeam() {
               return (
                 <Reveal as="li" key={a.key} delay={0.1 + i * 0.08} className="flex items-center gap-5 border-b border-ink/10 py-6 md:gap-6">
                   <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-full bg-sand-2 md:h-24 md:w-24">
-                    <Photo id={a.portrait} sizes="96px" alt="" />
+                    <Photo id={a.avatar} sizes="96px" alt="" />
                   </div>
                   <div className="min-w-0">
                     <p className="flex flex-wrap items-center gap-x-3 gap-y-1">

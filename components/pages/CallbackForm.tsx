@@ -5,6 +5,7 @@ import { Check, Loader2 } from "lucide-react";
 import { CALL_TIMES } from "@/data/matchmaker";
 import { makeReference, submitTripRequest } from "@/lib/submit";
 import { Chip } from "@/components/matchmaker/Choice";
+import { TeamAvatars } from "@/components/ui/TeamAvatars";
 
 /** A short "call me back" form. Uses the same submitTripRequest() as the Matchmaker. */
 export function CallbackForm() {
@@ -44,7 +45,10 @@ export function CallbackForm() {
         <p className="font-display text-3xl leading-tight font-light">
           Thank you, {name.trim().split(/\s+/)[0]}. <em className="italic">We will call you{callTime && callTime !== "Anytime" ? ` in the ${callTime.toLowerCase()}` : ""}.</em>
         </p>
-        <p className="text-ink-muted">Michele or Sarah will reach out within one business day.</p>
+        <p className="flex items-center gap-4 text-ink-muted">
+          <TeamAvatars size="h-11 w-11" />
+          Michele or Sarah will reach out within one business day.
+        </p>
       </div>
     );
   }
