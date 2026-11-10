@@ -51,8 +51,6 @@ export default function ContactPage() {
                 {SITE.phone}
               </a>
               <p className="mt-6 max-w-[34ch] text-mist">Tap to call from your phone. Tell us where you are dreaming of, or what is not going to plan.</p>
-              {/* PLACEHOLDER: confirm office hours with the client. */}
-              <p className="mt-6 inline-block border border-dashed border-sand/40 px-3 py-2 text-sm text-sand/85">Office hours: add hours here</p>
             </div>
             <div className="relative z-10 mt-14 border-t border-sand/15 pt-8">
               <p className="eyebrow text-ember">Prefer to start in writing?</p>
