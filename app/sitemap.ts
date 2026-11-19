@@ -17,6 +17,7 @@ const PAGES: { path: string; priority: number }[] = [
   { path: "/luxury-escapes", priority: 0.7 },
   { path: "/resort-packages", priority: 0.7 },
   { path: "/short-stays", priority: 0.7 },
+  { path: "/vacation-rentals", priority: 0.7 },
   { path: "/sporting-active", priority: 0.7 },
   { path: "/hot-deals", priority: 0.6 },
   { path: "/new-destinations", priority: 0.6 },

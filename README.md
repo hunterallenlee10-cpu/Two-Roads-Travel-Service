@@ -52,13 +52,15 @@ Live at https://tworoadstravelservice.com. Everything on the launch checklist is
 2. **Lead delivery**: Matchmaker and call-back requests post to `/api/lead` (`app/api/lead/route.ts`), which builds the email (`lib/lead-email.ts`) and forwards it to the n8n workflow "Two Roads: Website leads to Michele". n8n checks the site key and emails mshannon@tworoadstravelservice.com from the connected Gmail, with reply-to set to the traveler. Vercel production env: `LEAD_WEBHOOK_URL`, `LEAD_WEBHOOK_SECRET` (must match the key in the workflow's "Valid Site Key?" step). If sending fails, the form asks the visitor to call instead. Keep the workflow published and its Gmail credential connected.
 3. **Site URL**: https://tworoadstravelservice.com (`NEXT_PUBLIC_SITE_URL` in Vercel, with the same default in `data/site.ts`).
 4. **Search indexing**: open to search engines, with `app/robots.ts` and `app/sitemap.ts`. Submit `https://tworoadstravelservice.com/sitemap.xml` in Google Search Console to speed up indexing.
-5. **Featured journey prices** (`data/journeys.ts`): approved by Michele. They keep the "As listed, subject to change" disclaimer.
+5. **Featured journey prices** (`data/journeys.ts`): approved by Michele. They keep the "As listed, subject to change" disclaimer. Aim for three or four featured journeys at a time, mixing ocean cruises, river cruises and land vacations. Set `lead: true` on a journey to pin it first (used for the hosted Alaska group cruise).
 6. **Team bios and photos** (`data/team.ts`): bios approved by Michele. Photos live in `source-images/team/` (committed) and are listed in `source-images/g6.json`. Michele's portrait and both round avatars use the headshots the owner sent. Sarah's large About-page photo is cropped from the group photo, because her headshot is only 200x200. If a larger one (at least 1000px wide) ever arrives, add it as her `portrait` entry in `g6.json` and run `npm run images`.
 7. **Office hours**: none are published anywhere, so the site does not list any.
 8. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
+9. **Alaska group cruise** (`data/journeys.ts`): length, route and port order come from three travel-agency listings of this sailing (azamara.com blocks automated access): 10 nights, Vancouver July 5 to Whittier July 15, with Seward the day before Whittier. Confirm with Michele, and confirm whether $8,358 is per person. Her itinerary map has not been added yet.
 
 ## Notes
 
 - Prices carry the disclaimer "As listed, subject to change. Confirm with your advisor."
+- `npm run images` keeps the existing output for any photo whose source is not downloaded, so you only need the source files for photos you are adding or replacing.
 - Old page names redirect: `/customer-service`, `/travel-resources`, `/why-use-a-travel-advisor`, `/sporting-and-active`.
 - Everything respects `prefers-reduced-motion`: Lenis is off, the Atlas becomes a native swipe gallery, and transforms are instant.
