@@ -37,7 +37,8 @@ export const JOURNEYS: Journey[] = [
     title: "Alaska Cruise: Juneau, Ketchikan and Valdez",
     line: "Azamara Cruises",
     operator: "Azamara Cruises",
-    // CONFIRM: 10 nights per a public sailing listing (Vancouver to Whittier).
+    // 10 nights, Vancouver (Jul 5) to Whittier (Jul 15). Port order per three agency
+    // listings of this sailing; azamara.com could not be checked. Confirm with the client.
     nights: 10,
     fromPrice: "$8,358",
     priceLabel: "Price",
@@ -51,19 +52,21 @@ export const JOURNEYS: Journey[] = [
     details: [
       { label: "Ship", value: "Azamara Pursuit" },
       { label: "Sails", value: "July 5, 2027" },
+      { label: "Route", value: "Vancouver to Whittier" },
       { label: "Stateroom", value: "Veranda (V3)" },
     ],
     ports: [
       "Vancouver",
+      "Inside Passage (cruising)",
       "Ketchikan",
       "Klawock",
-      "Icy Strait Point",
       "Juneau",
       "Skagway",
+      "Icy Strait Point",
       "Hubbard Glacier (cruising)",
       "Valdez",
-      "Whittier",
       "Seward",
+      "Whittier",
     ],
   },
   {

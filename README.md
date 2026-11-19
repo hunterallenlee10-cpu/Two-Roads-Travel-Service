@@ -51,7 +51,7 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 5. **Search indexing**: the site ships with `robots: noindex, nofollow` because it is a concept preview of a real business. Remove it in `app/layout.tsx` when the client approves launch.
 6. **Featured journey prices** (`data/journeys.ts`): as listed on the client's current site. Confirm before launch. Aim for three or four featured journeys at a time, mixing ocean cruises, river cruises and land vacations. Set `lead: true` on a journey to pin it first (used for the hosted Alaska group cruise).
 7. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
-8. **Alaska group cruise** (`data/journeys.ts`): the 10-night length comes from a public sailing listing, which shows the voyage ending in Whittier. Confirm the length, the final port (Whittier or Seward) and whether $8,358 is per person. The client's itinerary map has not been added yet.
+8. **Alaska group cruise** (`data/journeys.ts`): length, route and port order come from three travel-agency listings of this sailing (azamara.com blocks automated access): 10 nights, Vancouver July 5 to Whittier July 15, with Seward the day before Whittier. Confirm with the client, and confirm whether $8,358 is per person. The client's itinerary map has not been added yet.
 
 ## Notes
 
