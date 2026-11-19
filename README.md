@@ -49,11 +49,13 @@ Next.js 16 (App Router, TypeScript), Tailwind CSS 4, Framer Motion, GSAP + Scrol
 3. **Lead delivery** (`lib/submit.ts`): `submitTripRequest()` logs the payload and shows the success state. Wire it to a webhook (n8n, Zapier, CRM). The TODO shows how.
 4. **Site URL**: set `NEXT_PUBLIC_SITE_URL` to the live domain so canonical and Open Graph URLs are absolute.
 5. **Search indexing**: the site ships with `robots: noindex, nofollow` because it is a concept preview of a real business. Remove it in `app/layout.tsx` when the client approves launch.
-6. **Featured journey prices** (`data/journeys.ts`): as listed on the client's current site. Confirm before launch.
+6. **Featured journey prices** (`data/journeys.ts`): as listed on the client's current site. Confirm before launch. Aim for three or four featured journeys at a time, mixing ocean cruises, river cruises and land vacations. Set `lead: true` on a journey to pin it first (used for the hosted Alaska group cruise).
 7. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
+8. **Alaska group cruise** (`data/journeys.ts`): the 10-night length comes from a public sailing listing, which shows the voyage ending in Whittier. Confirm the length, the final port (Whittier or Seward) and whether $8,358 is per person. The client's itinerary map has not been added yet.
 
 ## Notes
 
 - Prices carry the disclaimer "As listed, subject to change. Confirm with your advisor."
+- `npm run images` keeps the existing output for any photo whose source is not downloaded, so you only need the source files for photos you are adding or replacing.
 - Old page names redirect: `/customer-service`, `/travel-resources`, `/why-use-a-travel-advisor`, `/sporting-and-active`.
 - Everything respects `prefers-reduced-motion`: Lenis is off, the Atlas becomes a native swipe gallery, and transforms are instant.

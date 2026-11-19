@@ -111,10 +111,10 @@
     "src": "/images/styles/ocean-cruise.webp",
     "avif": "/images/styles/ocean-cruise.avif",
     "width": 1200,
-    "height": 1802,
-    "blur": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoQABgAPu1iqU2ppaQiMAgBMB2JagCdMoAApP4hx8JgAOcZgDYM1P/xYDu0Tv/5j5R1t6PB184PYsWKRXHg0EI49QBacdUz2J7aTt4A",
-    "alt": "Overhead drone view of a white cruise ship cutting a long wake through turquoise water",
-    "position": "50% 50%"
+    "height": 2133,
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoQABwAPu1iqU2ppaOiMAgBMB2JQBOmUABpq+f+0OopJdKkQAD+Jpp7LIKCtzLnz7nPnI2Q1rrSKLs+Xpj/tq9ydBZE4gIwekeC0Wo35hhvaG5Bkh0JWjACYNIRCgJ+NuAAAA==",
+    "alt": "A large white ocean cruise ship under way on open water beneath soft golden evening clouds",
+    "position": "50% 57%"
   },
   "styles/river-cruise": {
     "src": "/images/styles/river-cruise.webp",
@@ -556,5 +556,32 @@
     "blur": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQAwCdASoQABgAPu1Ct1apoqakGAEwHYlsAABcuN6L5WiSPtD7R4AA/rW8b/DcVIMqBfZjBwYegJ6UGrg1xLXvkVmU3km/YfhSgvnB/6tqT41pGMLuhCV+W7jBwjmrwpuXNSSdahoJIVr0JpocmyY/Ux2BaB9aXi8glj077p3GAVUgp8AAAA==",
     "alt": "Monument Valley buttes in warm sunset light beyond golden desert grass",
     "position": "50% 25%"
+  },
+  "styles/vacation-rentals": {
+    "src": "/images/styles/vacation-rentals.webp",
+    "avif": "/images/styles/vacation-rentals.avif",
+    "width": 1200,
+    "height": 800,
+    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsAA4BaJYgCdADzs2f5nrYA/nkbsDWaxtQVA9eH9R/owC+CwMepuYxfCE76lCfdtl7fAKiVAJui8pzhIcpXCg7UAAAA",
+    "alt": "A large white beach house with wraparound porches and a private pool lined with red lounge chairs",
+    "position": "50% 50%"
+  },
+  "styles/golf": {
+    "src": "/images/styles/golf.webp",
+    "avif": "/images/styles/golf.avif",
+    "width": 1200,
+    "height": 900,
+    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAwAA4BaJaAC7AEPWF4/+SEAAP73INMTVsipZXCXPVgVNE7P+hW+4RR7nukHUGHKQtp/y2s57/VPEbGVh6Twj4AAAA==",
+    "alt": "A seaside golf course with a curving sand bunker, green fairway and a line of trees above the ocean",
+    "position": "50% 50%"
+  },
+  "journeys/alaska": {
+    "src": "/images/journeys/alaska.webp",
+    "avif": "/images/journeys/alaska.avif",
+    "width": 2000,
+    "height": 1333,
+    "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQAAsAA4BaJZQCdH8AGJy5pogAAP7qt0bOkD3COeGJXwW9aAMO/W/dQ+Povo/Gcmi8mgAA",
+    "alt": "A wide tidewater glacier in Alaska meeting icy grey water beneath snow-covered mountains",
+    "position": "50% 50%"
   }
 }

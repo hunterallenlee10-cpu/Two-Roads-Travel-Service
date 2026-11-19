@@ -2,7 +2,7 @@
 
 Every photograph on this site is from **Pexels** and is used under the [Pexels License](https://www.pexels.com/license/), which allows free commercial use without attribution. We credit the photographers anyway, because they earned it.
 
-- **62 photos** from **58 photographers**
+- **65 photos** from **60 photographers**
 - No images were taken from the client's current site, cruise lines, other companies or award sites.
 - Originals are not committed. Each one can be re-downloaded from its Pexels ID via `https://images.pexels.com/photos/<ID>/pexels-photo-<ID>.jpeg` into `source-images/<section>/<key>.jpg`, then run `npm run images`.
 - Every photo gets the same gentle warm grade in `scripts/optimize-images.mjs` so the set reads as one story.
@@ -19,10 +19,12 @@ Every photograph on this site is from **Pexels** and is used under the [Pexels L
 | styles | all-inclusive | Ahmet ÇÖTÜR | 24807132 | [pexels.com](https://www.pexels.com/photo/sunbeds-over-pool-at-resort-at-sunset-24807132/) | Pexels License |
 | styles | destination-wedding | Agung Pandit Wiguna | 2788494 | [pexels.com](https://www.pexels.com/photo/photo-of-floral-arch-during-daytime-2788494/) | Pexels License |
 | styles | luxury | Ben Mack | 6775268 | [pexels.com](https://www.pexels.com/photo/terrace-of-modern-villa-overlooking-ocean-6775268/) | Pexels License |
-| styles | ocean-cruise | Dominik Reiter | 2634269 | [pexels.com](https://www.pexels.com/photo/top-view-photo-of-boat-on-sea-2634269/) | Pexels License |
+| styles | ocean-cruise | Çağrı Gürbüz | 14121113 | [pexels.com](https://www.pexels.com/photo/cruise-ship-sailing-in-water-14121113/) | Pexels License |
 | styles | river-cruise | Pierre Blaché | 2351425 | [pexels.com](https://www.pexels.com/photo/structural-photography-of-castle-2351425/) | Pexels License |
 | styles | short-stays | Céline | 30062491 | [pexels.com](https://www.pexels.com/photo/charming-evening-at-cafe-palais-royal-in-paris-30062491/) | Pexels License |
 | styles | tours | Adrien Olichon | 3241877 | [pexels.com](https://www.pexels.com/photo/people-walking-in-between-stone-walled-buildings-along-a-narrow-cobblestone-alley-3241877/) | Pexels License |
+| styles | vacation-rentals | Pixabay | 53610 | [pexels.com](https://www.pexels.com/photo/white-wooden-building-53610/) | Pexels License |
+| styles | golf | Kindel Media | 6573665 | [pexels.com](https://www.pexels.com/photo/photo-of-golf-course-under-blue-sky-6573665/) | Pexels License |
 | atlas | africa | Aaron Curtis | 127909 | [pexels.com](https://www.pexels.com/photo/silhouette-of-a-giraffe-on-a-savannah-127909/) | Pexels License |
 | atlas | alaska | Gu Bra | 17892479 | [pexels.com](https://www.pexels.com/photo/ship-on-cold-frosty-sea-17892479/) | Pexels License |
 | atlas | budapest | Nextvoyage | 3700529 | [pexels.com](https://www.pexels.com/photo/hungarian-parliament-building-during-nighttime-3700529/) | Pexels License |
@@ -37,6 +39,7 @@ Every photograph on this site is from **Pexels** and is used under the [Pexels L
 | atlas | usa | Clément Proust | 14558135 | [pexels.com](https://www.pexels.com/photo/monument-valley-forrest-gump-point-14558135/) | Pexels License |
 | journeys | danube | Lukas Seitz | 19039960 | [pexels.com](https://www.pexels.com/photo/confluence-of-rivers-inn-ilz-and-danube-in-passau-in-germany-19039960/) | Pexels License |
 | journeys | prague | Helena Jankovičová Kováčová | 10697690 | [pexels.com](https://www.pexels.com/photo/christmas-tree-on-old-market-square-10697690/) | Pexels License |
+| journeys | alaska | EUGENIO BARBOZA | 5802999 | [pexels.com](https://www.pexels.com/photo/glacier-in-greenland-5802999/) | Pexels License |
 | cta | fork | Jessica Lewis (thepaintedsquare) | 5525508 | [pexels.com](https://www.pexels.com/photo/forest-path-in-autumn-5525508/) | Pexels License |
 | pages | contact | Christine Renard | 615060 | [pexels.com](https://www.pexels.com/photo/window-view-of-airplane-615060/) | Pexels License |
 | pages | notfound | Skyler Ewing | 11523679 | [pexels.com](https://www.pexels.com/photo/foggy-forest-path-11523679/) | Pexels License |
@@ -73,4 +76,4 @@ Every photograph on this site is from **Pexels** and is used under the [Pexels L
 | destinations | usa-western | Clément Proust | 29481792 | [pexels.com](https://www.pexels.com/photo/monument-valley-at-sunset-29481792/) | Pexels License |
 | destinations | western-canada | Brendan Chen | 33870394 | [pexels.com](https://www.pexels.com/photo/stunning-sunrise-over-moraine-lake-in-banff-33870394/) | Pexels License |
 
-Notes: the transatlantic photo is credited on Pexels to the Pixabay account, so no individual photographer is named. The short-stays photographer is listed on Pexels by first name only.
+Notes: the transatlantic and vacation-rentals photos are credited on Pexels to the Pixabay account, so no individual photographer is named. The Alaska glacier photo's Pexels title says Greenland, but its location tag and description place it in Alaska. The short-stays photographer is listed on Pexels by first name only.

@@ -8,6 +8,8 @@ import { Photo } from "@/components/ui/Photo";
 import { ClipReveal, Reveal } from "@/components/ui/Motion";
 import { SectionIntro } from "@/components/ui/SectionIntro";
 
+const COUNT = ["No", "One", "Two", "Three", "Four", "Five", "Six"];
+
 export function FeaturedJourneys({ showIntro = true }: { showIntro?: boolean }) {
   const { road } = useRoad();
   const { open } = useMatchmaker();
@@ -21,7 +23,7 @@ export function FeaturedJourneys({ showIntro = true }: { showIntro?: boolean }) 
             <SectionIntro
               id="journeys-title"
               eyebrow="Featured journeys"
-              lines={["Two journeys", <em key="e" className="italic">worth the wait.</em>]}
+              lines={[`${COUNT[journeys.length] ?? "A few"} ${journeys.length === 1 ? "journey" : "journeys"}`, <em key="e" className="italic">worth the wait.</em>]}
               className="max-w-3xl"
             />
             <button
@@ -41,8 +43,9 @@ export function FeaturedJourneys({ showIntro = true }: { showIntro?: boolean }) 
               <ClipReveal className={`relative aspect-[4/3] overflow-hidden bg-ink md:col-span-8 md:aspect-[16/10] ${i % 2 ? "md:order-2" : ""}`}>
                 <Photo id={j.image} sizes="(min-width: 768px) 66vw, 100vw" />
                 <div aria-hidden className="absolute inset-0 bg-gradient-to-tr from-ink/40 via-transparent to-transparent" />
-                <span className="eyebrow absolute top-5 left-5 rounded-full bg-sand/90 px-3 py-1.5 text-[0.62rem] text-ink">
-                  {j.nights} nights
+                <span className="absolute top-5 left-5 flex flex-wrap gap-2">
+                  {j.badge && <span className="eyebrow rounded-full bg-terracotta-deep px-3 py-1.5 text-[0.62rem] text-sand">{j.badge}</span>}
+                  <span className="eyebrow rounded-full bg-sand/90 px-3 py-1.5 text-[0.62rem] text-ink">{j.nights} nights</span>
                 </span>
               </ClipReveal>
               <Reveal className={`md:col-span-4 ${i % 2 ? "md:order-1" : ""}`} delay={0.15}>
@@ -57,16 +60,40 @@ export function FeaturedJourneys({ showIntro = true }: { showIntro?: boolean }) 
                     <dd className="font-display mt-2 text-3xl font-light">{j.nights} nights</dd>
                   </div>
                   <div>
-                    <dt className="eyebrow text-ink-muted">From</dt>
+                    <dt className="eyebrow text-ink-muted">{j.priceLabel ?? "From"}</dt>
                     <dd className="font-display mt-2 text-3xl font-light">
-                      {j.fromPrice} <span className="font-sans text-sm text-ink-muted">pp</span>
+                      {j.fromPrice}{" "}
+                      {j.priceNote ? (
+                        <span className="mt-1.5 block font-sans text-xs leading-snug text-ink-muted">{j.priceNote}</span>
+                      ) : (
+                        <span className="font-sans text-sm text-ink-muted">pp</span>
+                      )}
                     </dd>
                   </div>
+                  {j.details?.map((d) => (
+                    <div key={d.label}>
+                      <dt className="eyebrow text-ink-muted">{d.label}</dt>
+                      <dd className="mt-2 text-[1.0625rem]">{d.value}</dd>
+                    </div>
+                  ))}
                 </dl>
+                {j.ports && (
+                  <div className="mt-8 border-t border-ink/15 pt-6">
+                    <h4 className="eyebrow text-ink-muted">Itinerary</h4>
+                    <ol className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1.5 text-[0.9375rem] leading-snug">
+                      {j.ports.map((port, k) => (
+                        <li key={port} className="flex items-center gap-2">
+                          {k > 0 && <span aria-hidden className="h-px w-3 bg-terracotta-deep/60" />}
+                          {port}
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
+                )}
                 <p className="mt-4 text-xs leading-relaxed text-ink-muted">{PRICE_DISCLAIMER}</p>
                 <button
                   type="button"
-                  onClick={() => open({ interest: `${j.title} (${j.operator}, ${j.nights} nights)` })}
+                  onClick={() => open({ interest: `${j.title} (${[j.operator, ...(j.details ?? []).map((d) => d.value), `${j.nights} nights`].join(", ")})` })}
                   className="group mt-8 inline-flex min-h-12 items-center gap-2 rounded-full bg-ink px-6 text-sm font-semibold text-sand transition-colors hover:bg-terracotta-deep"
                 >
                   Ask about this journey

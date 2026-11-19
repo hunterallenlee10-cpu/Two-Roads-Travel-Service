@@ -47,17 +47,17 @@ export function WaysToTravel() {
           </ul>
         </div>
 
-        <ul className="no-scrollbar -mx-[var(--gutter)] mt-14 flex snap-x snap-mandatory gap-4 overflow-x-auto px-[var(--gutter)] pb-4 md:mx-0 md:mt-20 md:grid md:snap-none md:grid-cols-2 md:gap-6 md:overflow-visible md:px-0 lg:grid-cols-4 lg:gap-x-6 lg:gap-y-10">
+        <ul className="no-scrollbar -mx-[var(--gutter)] mt-14 flex snap-x snap-mandatory gap-4 overflow-x-auto px-[var(--gutter)] pb-4 md:mx-0 md:mt-20 md:grid md:snap-none md:grid-cols-3 md:gap-5 md:overflow-visible md:px-0 lg:mx-auto lg:max-w-[1440px] lg:gap-x-8 lg:gap-y-10 lg:pb-16">
           {styles.map((s, i) => (
             <li
               key={s.key}
-              className={`w-[78vw] max-w-[360px] shrink-0 snap-start md:w-auto md:max-w-none ${i % 2 === 1 ? "lg:translate-y-16" : ""}`}
+              className={`w-[78vw] max-w-[360px] shrink-0 snap-start md:w-auto md:max-w-none ${i % 3 === 1 ? "lg:translate-y-16" : ""}`}
             >
-              <Reveal delay={(i % 4) * 0.08}>
+              <Reveal delay={(i % 3) * 0.08}>
                 <Link href={s.href} className="group block">
-                  <div className="relative aspect-[3/4.3] overflow-hidden bg-ink">
+                  <div className="relative aspect-[3/4.3] overflow-hidden bg-ink lg:aspect-[4/5]">
                     <div className="absolute inset-0 transition-transform duration-[1400ms] ease-[var(--ease-out-soft)] group-hover:scale-[1.06]">
-                      <Photo id={s.image} sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 78vw" />
+                      <Photo id={s.image} sizes="(min-width: 1440px) 460px, (min-width: 768px) 33vw, 78vw" />
                     </div>
                     <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/5 to-transparent" />
                     <span className="eyebrow absolute top-4 left-4 text-sand/90">{String(i + 1).padStart(2, "0")}</span>

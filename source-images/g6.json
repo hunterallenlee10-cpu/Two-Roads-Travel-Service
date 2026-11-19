@@ -1,0 +1,44 @@
+[
+  {
+    "section": "styles",
+    "key": "vacation-rentals",
+    "file": "source-images/styles/vacation-rentals.jpg",
+    "source": "Pexels",
+    "id": "53610",
+    "pageUrl": "https://www.pexels.com/photo/white-wooden-building-53610/",
+    "photographer": "Pixabay",
+    "license": "Pexels License",
+    "alt": "A large white beach house with wraparound porches and a private pool lined with red lounge chairs",
+    "focal": "center (house centered, pool along the bottom)",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "section": "styles",
+    "key": "golf",
+    "file": "source-images/styles/golf.jpg",
+    "source": "Pexels",
+    "id": "6573665",
+    "pageUrl": "https://www.pexels.com/photo/photo-of-golf-course-under-blue-sky-6573665/",
+    "photographer": "Kindel Media",
+    "license": "Pexels License",
+    "alt": "A seaside golf course with a curving sand bunker, green fairway and a line of trees above the ocean",
+    "focal": "center",
+    "width": 2400,
+    "height": 1800
+  },
+  {
+    "section": "journeys",
+    "key": "alaska",
+    "file": "source-images/journeys/alaska.jpg",
+    "source": "Pexels",
+    "id": "5802999",
+    "pageUrl": "https://www.pexels.com/photo/glacier-in-greenland-5802999/",
+    "photographer": "EUGENIO BARBOZA",
+    "license": "Pexels License",
+    "alt": "A wide tidewater glacier in Alaska meeting icy grey water beneath snow-covered mountains",
+    "focal": "center (glacier face at ~50% y)",
+    "width": 2400,
+    "height": 1600
+  }
+]

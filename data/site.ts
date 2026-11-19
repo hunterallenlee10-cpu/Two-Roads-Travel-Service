@@ -11,7 +11,7 @@ export const SITE = {
   // PLACEHOLDER: set NEXT_PUBLIC_SITE_URL to the live domain when deployed.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   description:
-    "Two Roads Travel Service plans cruises, river cruises, all-inclusives, destination weddings and tours with a personal advisor who takes the time to get you. We get you and we get you there.",
+    "Two Roads Travel Service plans cruises, river cruises, all-inclusives, vacation rentals, destination weddings, tours and golf getaways with a personal advisor who takes the time to get you. We get you and we get you there.",
 } as const;
 
 export type NavLink = { label: string; href: string };
@@ -38,7 +38,8 @@ export const FOOTER_NAV: { title: string; links: NavLink[] }[] = [
       { label: "Luxury Escapes", href: "/luxury-escapes" },
       { label: "Resort Packages", href: "/resort-packages" },
       { label: "Short Stays", href: "/short-stays" },
-      { label: "Sporting and Active", href: "/sporting-active" },
+      { label: "Vacation Rentals", href: "/vacation-rentals" },
+      { label: "Active, Sporting and Golf", href: "/sporting-active" },
     ],
   },
   {

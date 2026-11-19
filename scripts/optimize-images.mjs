@@ -52,6 +52,10 @@ function parseFocal(text = "") {
 
 async function main() {
   const files = (await readdir(SRC)).filter((f) => /^g\d+\.json$/.test(f)).sort();
+  // Raw sources are not committed. When one is missing, keep its previous output
+  // so adding or swapping a single photo does not require re-downloading all of them.
+  const previous = JSON.parse(await readFile(path.join(ROOT, "data", "images.generated.json"), "utf8").catch(() => "{}"));
+  const previousCredits = JSON.parse(await readFile(path.join(ROOT, "data", "credits.generated.json"), "utf8").catch(() => "[]"));
   const manifest = {};
   const credits = [];
   for (const f of files) {
@@ -62,7 +66,15 @@ async function main() {
       try {
         await stat(input);
       } catch {
-        console.warn(`! missing source for ${id}`);
+        const kept = previous[id];
+        const keptCredit = previousCredits.find((c) => c.id === id);
+        if (kept && keptCredit && keptCredit.pageUrl === e.pageUrl) {
+          manifest[id] = kept;
+          credits.push(keptCredit);
+          process.stdout.write(`= ${id} (source not downloaded, kept previous output)\n`);
+        } else {
+          console.warn(`! missing source for ${id}`);
+        }
         continue;
       }
       const max = WIDTH[e.section] ?? 1600;

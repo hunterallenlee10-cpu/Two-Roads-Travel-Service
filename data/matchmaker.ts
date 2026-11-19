@@ -65,6 +65,7 @@ export const EXTRA_OPTIONS = [
   "Adults only",
   "Spa",
   "Adventure",
+  "Golf",
   "Celebrations",
   "Accessibility needs",
 ];

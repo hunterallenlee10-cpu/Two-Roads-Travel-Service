@@ -98,8 +98,8 @@
   {
     "id": "styles/ocean-cruise",
     "section": "styles",
-    "photographer": "Dominik Reiter",
-    "pageUrl": "https://www.pexels.com/photo/top-view-photo-of-boat-on-sea-2634269/",
+    "photographer": "Çağrı Gürbüz",
+    "pageUrl": "https://www.pexels.com/photo/cruise-ship-sailing-in-water-14121113/",
     "license": "Pexels License",
     "source": "Pexels"
   },
@@ -492,6 +492,30 @@
     "section": "destinations",
     "photographer": "Clément Proust",
     "pageUrl": "https://www.pexels.com/photo/monument-valley-at-sunset-29481792/",
+    "license": "Pexels License",
+    "source": "Pexels"
+  },
+  {
+    "id": "styles/vacation-rentals",
+    "section": "styles",
+    "photographer": "Pixabay",
+    "pageUrl": "https://www.pexels.com/photo/white-wooden-building-53610/",
+    "license": "Pexels License",
+    "source": "Pexels"
+  },
+  {
+    "id": "styles/golf",
+    "section": "styles",
+    "photographer": "Kindel Media",
+    "pageUrl": "https://www.pexels.com/photo/photo-of-golf-course-under-blue-sky-6573665/",
+    "license": "Pexels License",
+    "source": "Pexels"
+  },
+  {
+    "id": "journeys/alaska",
+    "section": "journeys",
+    "photographer": "EUGENIO BARBOZA",
+    "pageUrl": "https://www.pexels.com/photo/glacier-in-greenland-5802999/",
     "license": "Pexels License",
     "source": "Pexels"
   }
