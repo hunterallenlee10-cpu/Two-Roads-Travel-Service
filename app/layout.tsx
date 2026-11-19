@@ -45,8 +45,7 @@ export const metadata: Metadata = {
     description: SITE.description,
     images: ["/og-image.png"],
   },
-  // Concept preview of a real business: keep it out of search engines.
-  robots: { index: false, follow: false, googleBot: { index: false, follow: false } },
+  robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {

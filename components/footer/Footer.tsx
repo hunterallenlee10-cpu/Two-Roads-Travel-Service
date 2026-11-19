@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid gap-14 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <Link href="/" aria-label="Two Roads Travel Service, home" className="inline-block">
-              <Wordmark size="lg" />
+              <Wordmark tone="light" size="lg" />
             </Link>
             <p className="font-display mt-8 max-w-[22ch] text-[clamp(1.75rem,2.6vw,2.5rem)] leading-tight font-light italic">
               {SITE.signature}
@@ -53,12 +53,24 @@ export function Footer() {
           </div>
           <div className="space-y-1 md:text-right">
             <p>
-              Photography by Pexels contributors.{" "}
+              Team photos are our own. Destination photography by Pexels contributors.{" "}
               <Link href="/credits" className="underline decoration-mist/40 underline-offset-4 hover:text-sand">
                 Photo credits
               </Link>
             </p>
-            <p>{SITE.credit}</p>
+            <p>
+              {SITE.credit.prefix}{" "}
+              <a
+                href={SITE.credit.url}
+                target="_blank"
+                rel="noopener"
+                className="underline decoration-mist/40 underline-offset-4 hover:text-sand"
+              >
+                {SITE.credit.name}
+                <span className="sr-only"> (opens in a new tab)</span>
+              </a>
+              .
+            </p>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { SITE } from "@/data/site";
 import { ROADS } from "@/lib/road";
 import { ForkGlyph } from "@/components/brand/ForkGlyph";
 import { Wordmark } from "@/components/brand/Wordmark";
+import { TeamAvatars } from "@/components/ui/TeamAvatars";
 
 function roadTitle(road: TripAnswers["road"]) {
   if (road === "unwind" || road === "discover") return ROADS[road].title;
@@ -33,7 +34,7 @@ export function Dossier({ answers, reference, onClose }: { answers: TripAnswers;
         className="print-dossier relative overflow-hidden border border-ink/15 bg-paper shadow-[0_40px_80px_-40px_rgba(14,42,51,0.45)]"
       >
         <div className="flex items-center justify-between border-b border-ink/10 px-6 py-5 md:px-12">
-          <Wordmark road={road} />
+          <Wordmark />
           <span className="eyebrow text-right text-ink-muted">
             Trip Dossier
             <span className="block text-ink">{reference}</span>
@@ -67,8 +68,9 @@ export function Dossier({ answers, reference, onClose }: { answers: TripAnswers;
 
           <div className="mt-10 grid gap-6 md:grid-cols-[1fr_auto] md:items-end">
             <div>
+              <TeamAvatars size="h-14 w-14" className="mb-5" />
               <p className="font-display text-2xl leading-snug">
-                {firstName ? `Thank you, ${firstName}.` : "Thank you."} An advisor will reach out within one business day.
+                {firstName ? `Thank you, ${firstName}.` : "Thank you."} Michele or Sarah will reach out within one business day.
               </p>
               <p className="mt-2 text-sm text-ink-muted">
                 {answers.callTime ? `We will aim for the ${answers.callTime.toLowerCase()}.` : "We will call at a good time for you."} Reach us at {SITE.phone}.

@@ -6,26 +6,26 @@ export type TripRequestPayload = {
   reference: string;
   answers: Partial<TripAnswers>;
   page: string;
+  /** Honeypot value. Empty for real visitors. */
+  website?: string;
 };
 
 /**
  * The single place every lead leaves the site.
- *
- * TODO: wire this to a webhook (n8n, Zapier, Make, a CRM form endpoint) when the client is ready.
- * Example:
- *   await fetch(process.env.NEXT_PUBLIC_TRIP_WEBHOOK_URL!, {
- *     method: "POST",
- *     headers: { "Content-Type": "application/json" },
- *     body: JSON.stringify(payload),
- *   });
- * Until then it logs the payload and resolves, so the success state can be shown.
+ * Posts to /api/lead, which emails Michele through the n8n workflow. Returns ok: false if it did not go through,
+ * so the form can ask the visitor to call instead.
  */
 export async function submitTripRequest(payload: TripRequestPayload): Promise<{ ok: boolean }> {
-  if (process.env.NODE_ENV !== "production") {
-    console.info("[Two Roads] trip request (not sent, no webhook yet)", payload);
+  try {
+    const res = await fetch("/api/lead", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    return { ok: res.ok };
+  } catch {
+    return { ok: false };
   }
-  await new Promise((resolve) => setTimeout(resolve, 650));
-  return { ok: true };
 }
 
 export function makeReference() {

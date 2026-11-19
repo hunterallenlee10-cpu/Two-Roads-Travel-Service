@@ -42,3 +42,6 @@ next-env.d.ts
 
 # raw photo downloads (reproducible from source-images/g*.json via Pexels IDs)
 /source-images/**/*.jpg
+
+# the team's own photos are not reproducible from Pexels, so they are committed
+!/source-images/team/*.jpg

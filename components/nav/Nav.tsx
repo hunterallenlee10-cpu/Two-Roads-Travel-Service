@@ -4,14 +4,12 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { Menu, Phone } from "lucide-react";
 import { PRIMARY_NAV, SITE } from "@/data/site";
-import { useRoad } from "@/components/providers/RoadProvider";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { PlanTripButton } from "@/components/ui/PlanTripButton";
 import { RoadPill } from "./RoadPill";
 import { MobileMenu } from "./MobileMenu";
 
 export function Nav() {
-  const { road } = useRoad();
   const [solid, setSolid] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,7 +44,11 @@ export function Nav() {
         )}
         <nav aria-label="Main" className="px-gutter mx-auto flex h-[var(--nav-h)] max-w-[1920px] items-center justify-between gap-4">
           <Link href="/" aria-label="Two Roads Travel Service, home" className="-ml-1 rounded-sm p-1">
-            <Wordmark road={road} />
+            {/* Both tones are stacked so the logo cross-fades with the header background. */}
+            <span className="grid">
+              <Wordmark tone="light" eager className={`col-start-1 row-start-1 transition-opacity duration-500 ${light ? "opacity-100" : "opacity-0"}`} />
+              <Wordmark tone="dark" eager className={`col-start-1 row-start-1 transition-opacity duration-500 ${light ? "opacity-0" : "opacity-100"}`} />
+            </span>
           </Link>
 
           <ul className="hidden items-center gap-1 xl:flex">

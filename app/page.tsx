@@ -1,5 +1,6 @@
 import { Hero } from "@/components/home/Hero";
 import { TrustStrip } from "@/components/home/TrustStrip";
+import { MeetTheTeam } from "@/components/home/MeetTheTeam";
 import { HowWeGetYou } from "@/components/home/HowWeGetYou";
 import { WaysToTravel } from "@/components/home/WaysToTravel";
 import { Atlas } from "@/components/home/Atlas";
@@ -15,6 +16,7 @@ export default function Home() {
     <>
       <Hero />
       <TrustStrip />
+      <MeetTheTeam />
       <HowWeGetYou />
       <WaysToTravel />
       <Atlas />

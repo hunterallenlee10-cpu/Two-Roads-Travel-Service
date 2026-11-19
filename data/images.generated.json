@@ -112,7 +112,7 @@
     "avif": "/images/styles/ocean-cruise.avif",
     "width": 1200,
     "height": 2133,
-    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoQABwAPu1iqU2ppaOiMAgBMB2JQBOmUABpq+f+0OopJdKkQAD+Jpp7LIKCtzLnz7nPnI2Q1rrSKLs+Xpj/tq9ydBZE4gIwekeC0Wo35hhvaG5Bkh0JWjACYNIRCgJ+NuAAAA==",
+    "blur": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADwAwCdASoQABwAPu1kqU2ppaQiMAgBMB2JQBYdg8gILfs9KKGAy84AAP54vjVersWxbT98ErH62MzNyB3JdOFAI7iL6KalZI2xrh15dIQMN7OkD1fOKc1O3KFUo/xU1sksCCg3QAA=",
     "alt": "A large white ocean cruise ship under way on open water beneath soft golden evening clouds",
     "position": "50% 57%"
   },
@@ -557,12 +557,84 @@
     "alt": "Monument Valley buttes in warm sunset light beyond golden desert grass",
     "position": "50% 25%"
   },
+  "team/together": {
+    "src": "/images/team/together.webp",
+    "avif": "/images/team/together.avif",
+    "width": 1122,
+    "height": 1402,
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JQBadAlb+GloaazdgAP4e3RpkaMjnXp03ROPGd5jw5SyYAdrBDBdhS1i2JDmrm5PYrbdbYil4Cb9rcs9bSx9xW+b5TOjzzU/HBWInbo83AhZrcWP+rx/Ak55ImxgASQuLb2vKB1rDmDYzp2N7yjd1ZTAmwAAA",
+    "alt": "Michele and Sarah smiling together by the sea, Michele in a white jacket and Sarah in a pink dress, with palm trees and turquoise water behind them",
+    "position": "50% 35%"
+  },
+  "team/michele": {
+    "src": "/images/team/michele.webp",
+    "avif": "/images/team/michele.avif",
+    "width": 800,
+    "height": 1000,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JbACdMoMYPYAAi9gJOwyApxEAAK6RFkcRZ2ycvWBecejvryDnlw87aYITOzz5ONQyPBO8Y95AftZgRLS7rjjwOukZtVbXdRUSAhl5uJ9GHceSZXVUrNcqTrxcQeeiEOL3IGzm1WQY4Vbb594BorsAAAA=",
+    "alt": "Portrait of Michele, owner of Two Roads Travel Service, smiling",
+    "position": "50% 40%"
+  },
+  "team/michele-avatar": {
+    "src": "/images/team/michele-avatar.webp",
+    "avif": "/images/team/michele-avatar.avif",
+    "width": 760,
+    "height": 760,
+    "blur": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQABAAA4BaJbACdAD1mJ3QHPJwAMgi3SdSAYSKxK+MEwUogkKS7P8eyPr0GR4RLBXHZtI3xtSXixR9w1zrFkmry4IyMNGd3zOkq7tYCUHexlYD97zApOVB3xffuyR9Mx5BVoboAAA=",
+    "alt": "Michele, owner of Two Roads Travel Service",
+    "position": "50% 50%"
+  },
+  "team/sarah": {
+    "src": "/images/team/sarah.webp",
+    "avif": "/images/team/sarah.avif",
+    "width": 472,
+    "height": 590,
+    "blur": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBACdASoQABQAPu1iqU2ppaOiMAgBMB2JZgCdMoMjbEh4vxjBhTiI4ADOMs8Sn4X/CqNfTTeA9xmforkommiGJB2jtnZ3u5p1UDqxrGX6pbdkNl4c0ZEEWfNcpZI6Kolexla+pA/8NZPDApuMbmuCEbjF/Fj66kkv0IS8gUJiMwkV7qV9QGIcI2/f6Slg9LQSr+I9baPQAAAA",
+    "alt": "Portrait of Sarah, travel advisor at Two Roads Travel Service, smiling by the sea",
+    "position": "50% 40%"
+  },
+  "team/sarah-avatar": {
+    "src": "/images/team/sarah-avatar.webp",
+    "avif": "/images/team/sarah-avatar.avif",
+    "width": 200,
+    "height": 200,
+    "blur": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQABAAA4BaJYgC7ADFOkA1Q9KAAP4HScJDpLJ5M5LcvZBX5/EFtouQ7Aeylvr7wneOvHzJjBYdi3J3X9J/KLhKhmkbOpVrERoaLsZLC56znNXTrLmYIJnv/AAAAA==",
+    "alt": "Sarah, travel advisor at Two Roads Travel Service",
+    "position": "50% 50%"
+  },
+  "team/workshop": {
+    "src": "/images/team/workshop.webp",
+    "avif": "/images/team/workshop.avif",
+    "width": 1400,
+    "height": 788,
+    "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwAQCdASoQAAkAA4BaJQBOgBI4TMRkAPatTcUqiPhQZe8/cGWnArb1SLqDte85TNZ2Huvwq7gnkRPq9shpnWn9WBWlft5Bwb20ehUq3/bH6yRYqiulDKjevVVQzbgAAAA=",
+    "alt": "Sarah and Michele side by side in matching floral aprons at a hands-on workshop",
+    "position": "44% 40%"
+  },
+  "team/toast": {
+    "src": "/images/team/toast.webp",
+    "avif": "/images/team/toast.avif",
+    "width": 1400,
+    "height": 1867,
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JaACdACPg9vocyvHStgtu6gAA/s3/0avisfjPuwKh+NR/ekfdwLanlkcNYW9LjNIFS8zOs/JKsDAp1YFEb475YzDc8NRE6K75fO6ob326vVCHuP9YENFSOVtaR+FzrlKPCP1dXZMl1PegXGuuQkfCWQLf3bFqJz/AgYfQ3c80Fxa8xcPhHAAA",
+    "alt": "Michele and Sarah raising a glass of red wine and a flute of sparkling wine to the camera",
+    "position": "50% 45%"
+  },
+  "team/summit": {
+    "src": "/images/team/summit.webp",
+    "avif": "/images/team/summit.avif",
+    "width": 1400,
+    "height": 1867,
+    "blur": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAwBACdASoQABUAPu1iqU2ppaOiMAgBMB2JQBOkAfhmfpO/768icRBdPsAA/sVeNOWRw7didUlzan9gc9xSlBho1vNBep0M3J/R7u76j/d1K7B8hpyGh8Bj7BvOdvBgR/jPAslZraXgH19cmagNVasQIn04M/J7JDhYC76XZZFwF+E2YJ+w9cGw0AA=",
+    "alt": "Michele takes a windswept selfie at a rocky lookout, with Sarah and a travel companion behind her and the island spread out below",
+    "position": "50% 40%"
+  },
   "styles/vacation-rentals": {
     "src": "/images/styles/vacation-rentals.webp",
     "avif": "/images/styles/vacation-rentals.avif",
     "width": 1200,
     "height": 800,
-    "blur": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsAA4BaJYgCdADzs2f5nrYA/nkbsDWaxtQVA9eH9R/owC+CwMepuYxfCE76lCfdtl7fAKiVAJui8pzhIcpXCg7UAAAA",
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAQCdASoQAAsAA4BaJQBOgBwyYYAA/nkbsaEoFx/6PsYFHhM/rHJ6w2gOnUOzUuMXyaXTePrC7TVjZREhBTn26EU0/jwlqeapwL8SAAA=",
     "alt": "A large white beach house with wraparound porches and a private pool lined with red lounge chairs",
     "position": "50% 50%"
   },
@@ -571,7 +643,7 @@
     "avif": "/images/styles/golf.avif",
     "width": 1200,
     "height": 900,
-    "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAwAA4BaJaAC7AEPWF4/+SEAAP73INMTVsipZXCXPVgVNE7P+hW+4RR7nukHUGHKQtp/y2s57/VPEbGVh6Twj4AAAA==",
+    "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQAAwAA4BaJaAC7AEPSxB9P+JQAP73HMy45N1vWV9spZt4/d0mn0lIn5U90pZu0hWu0T0ZVgP+GaVWAAA=",
     "alt": "A seaside golf course with a curving sand bunker, green fairway and a line of trees above the ocean",
     "position": "50% 50%"
   },
@@ -580,7 +652,7 @@
     "avif": "/images/journeys/alaska.avif",
     "width": 2000,
     "height": 1333,
-    "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoQAAsAA4BaJZQCdH8AGJy5pogAAP7qt0bOkD3COeGJXwW9aAMO/W/dQ+Povo/Gcmi8mgAA",
+    "blur": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAsAA4BaJZQCdH8AGCFAobgA/uq0sZjrTHy6Ax2iTx/HTMrrWrSW89OKYTBxxNIeAAAA",
     "alt": "A wide tidewater glacier in Alaska meeting icy grey water beneath snow-covered mountains",
     "position": "50% 50%"
   }

@@ -7,9 +7,13 @@ export const SITE = {
   tagline: "Travel better with a personalized travel experience.",
   network: "Part of the Uniglobe Travel Center network. Virtuoso affiliated.",
   legal: "Florida Seller of Travel Reg. No. ST32940, CST 2055333-40",
-  credit: "Concept preview by Lee Enterprises Unlimited.",
-  // PLACEHOLDER: set NEXT_PUBLIC_SITE_URL to the live domain when deployed.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  credit: {
+    prefix: "Built and operated by",
+    name: "Lee Enterprises Unlimited",
+    url: "https://www.leeenterprisesunlimited.com/",
+  },
+  // The live domain. NEXT_PUBLIC_SITE_URL (set in Vercel) can override it.
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://tworoadstravelservice.com",
   description:
     "Two Roads Travel Service plans cruises, river cruises, all-inclusives, vacation rentals, destination weddings, tours and golf getaways with a personal advisor who takes the time to get you. We get you and we get you there.",
 } as const;
@@ -21,6 +25,7 @@ export const PRIMARY_NAV: NavLink[] = [
   { label: "Destinations", href: "/destinations" },
   { label: "Journeys", href: "/#journeys" },
   { label: "Why an Advisor", href: "/why-an-advisor" },
+  { label: "About Us", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -54,6 +59,7 @@ export const FOOTER_NAV: { title: string; links: NavLink[] }[] = [
   {
     title: "Help",
     links: [
+      { label: "Meet Our Team", href: "/about" },
       { label: "Travel Resources", href: "/resources" },
       { label: "Customer Service", href: "/contact#customer-service" },
       { label: "Why Use a Travel Advisor", href: "/why-an-advisor" },
