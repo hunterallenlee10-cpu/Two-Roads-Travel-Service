@@ -21,6 +21,8 @@ export type Journey = {
   badge?: string;
   /** Extra facts listed under the price, e.g. ship, sail date, stateroom. */
   details?: { label: string; value: string }[];
+  /** Route map shown under the photo. */
+  map?: ImageId;
   /** Ports of call in order. */
   ports?: string[];
 };
@@ -37,13 +39,13 @@ export const JOURNEYS: Journey[] = [
     title: "Alaska Cruise: Juneau, Ketchikan and Valdez",
     line: "Azamara Cruises",
     operator: "Azamara Cruises",
-    // 10 nights, Vancouver (Jul 5) to Whittier (Jul 15). Port order per three agency
-    // listings of this sailing; azamara.com could not be checked. Confirm with the client.
+    // 10 nights, Vancouver (Jul 5) to Whittier (Jul 15). Price, route and map confirmed by Michele.
     nights: 10,
     fromPrice: "$8,358",
     priceLabel: "Price",
-    priceNote: "based on double occupancy",
-    image: "journeys/alaska",
+    priceNote: "total for 2 guests, double occupancy",
+    image: "journeys/alaska-pursuit",
+    map: "journeys/alaska-map",
     description:
       "Sail with our group aboard Azamara Pursuit, from Vancouver up the Inside Passage to the ice of Hubbard Glacier and the fjords of Prince William Sound. A smaller ship, so you reach the smaller ports too.",
     road: "both",
