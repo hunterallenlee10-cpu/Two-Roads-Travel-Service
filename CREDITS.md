@@ -2,7 +2,7 @@
 
 Every photograph on this site is from **Pexels** and is used under the [Pexels License](https://www.pexels.com/license/), which allows free commercial use without attribution. We credit the photographers anyway, because they earned it.
 
-- **65 photos** from **60 photographers**
+- **64 photos** from **59 photographers**
 - No images were taken from the client's current site, cruise lines, other companies or award sites.
 - Originals are not committed. Each one can be re-downloaded from its Pexels ID via `https://images.pexels.com/photos/<ID>/pexels-photo-<ID>.jpeg` into `source-images/<section>/<key>.jpg`, then run `npm run images`.
 - Every photo gets the same gentle warm grade in `scripts/optimize-images.mjs` so the set reads as one story.
@@ -39,7 +39,6 @@ Every photograph on this site is from **Pexels** and is used under the [Pexels L
 | atlas | usa | Clément Proust | 14558135 | [pexels.com](https://www.pexels.com/photo/monument-valley-forrest-gump-point-14558135/) | Pexels License |
 | journeys | danube | Lukas Seitz | 19039960 | [pexels.com](https://www.pexels.com/photo/confluence-of-rivers-inn-ilz-and-danube-in-passau-in-germany-19039960/) | Pexels License |
 | journeys | prague | Helena Jankovičová Kováčová | 10697690 | [pexels.com](https://www.pexels.com/photo/christmas-tree-on-old-market-square-10697690/) | Pexels License |
-| journeys | alaska | EUGENIO BARBOZA | 5802999 | [pexels.com](https://www.pexels.com/photo/glacier-in-greenland-5802999/) | Pexels License |
 | cta | fork | Jessica Lewis (thepaintedsquare) | 5525508 | [pexels.com](https://www.pexels.com/photo/forest-path-in-autumn-5525508/) | Pexels License |
 | pages | contact | Christine Renard | 615060 | [pexels.com](https://www.pexels.com/photo/window-view-of-airplane-615060/) | Pexels License |
 | pages | notfound | Skyler Ewing | 11523679 | [pexels.com](https://www.pexels.com/photo/foggy-forest-path-11523679/) | Pexels License |
@@ -76,4 +75,6 @@ Every photograph on this site is from **Pexels** and is used under the [Pexels L
 | destinations | usa-western | Clément Proust | 29481792 | [pexels.com](https://www.pexels.com/photo/monument-valley-at-sunset-29481792/) | Pexels License |
 | destinations | western-canada | Brendan Chen | 33870394 | [pexels.com](https://www.pexels.com/photo/stunning-sunrise-over-moraine-lake-in-banff-33870394/) | Pexels License |
 
-Notes: the transatlantic and vacation-rentals photos are credited on Pexels to the Pixabay account, so no individual photographer is named. The Alaska glacier photo's Pexels title says Greenland, but its location tag and description place it in Alaska. The short-stays photographer is listed on Pexels by first name only.
+The Alaska cruise photo and itinerary map were supplied by Michele and are not listed here.
+
+Notes: the transatlantic and vacation-rentals photos are credited on Pexels to the Pixabay account, so no individual photographer is named. The short-stays photographer is listed on Pexels by first name only.

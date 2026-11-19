@@ -56,7 +56,7 @@ Live at https://tworoadstravelservice.com. Everything on the launch checklist is
 6. **Team bios and photos** (`data/team.ts`): bios approved by Michele. Photos live in `source-images/team/` (committed) and are listed in `source-images/g6.json`. Michele's portrait and both round avatars use the headshots the owner sent. Sarah's large About-page photo is cropped from the group photo, because her headshot is only 200x200. If a larger one (at least 1000px wide) ever arrives, add it as her `portrait` entry in `g6.json` and run `npm run images`.
 7. **Office hours**: none are published anywhere, so the site does not list any.
 8. **Logos**: Virtuoso and Uniglobe are mentioned in text only. Add official logos only with the client's permission and brand guidelines.
-9. **Alaska group cruise** (`data/journeys.ts`): length, route and port order come from three travel-agency listings of this sailing (azamara.com blocks automated access): 10 nights, Vancouver July 5 to Whittier July 15, with Seward the day before Whittier. Confirm with Michele, and confirm whether $8,358 is per person. Her itinerary map has not been added yet.
+9. **Alaska group cruise** (`data/journeys.ts`): confirmed by Michele: 10 nights, Vancouver July 5 to Whittier July 15, $8,358 total for two guests in a Veranda (V3), double occupancy. The ship photo and itinerary map are hers (`source-images/journeys/`, listed in `g7.json`). Set `map` on any journey to show a route map under its photo.
 
 ## Notes
 

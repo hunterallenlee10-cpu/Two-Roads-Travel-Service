@@ -29,16 +29,20 @@
   },
   {
     "section": "journeys",
-    "key": "alaska",
-    "file": "source-images/journeys/alaska.jpg",
-    "source": "Pexels",
-    "id": "5802999",
-    "pageUrl": "https://www.pexels.com/photo/glacier-in-greenland-5802999/",
-    "photographer": "EUGENIO BARBOZA",
-    "license": "Pexels License",
-    "alt": "A wide tidewater glacier in Alaska meeting icy grey water beneath snow-covered mountains",
-    "focal": "center (glacier face at ~50% y)",
-    "width": 2400,
-    "height": 1600
+    "key": "alaska-pursuit",
+    "file": "source-images/journeys/alaska-pursuit.png",
+    "source": "Client",
+    "grade": false,
+    "alt": "Azamara Pursuit cruising icy turquoise water in front of Hubbard Glacier and snow-covered mountains",
+    "focal": "56% 55%"
+  },
+  {
+    "section": "journeys",
+    "key": "alaska-map",
+    "file": "source-images/journeys/alaska-map.png",
+    "source": "Client",
+    "grade": false,
+    "alt": "Route map of the cruise: from Vancouver, British Columbia north through the Inside Passage to Ketchikan, Klawock, Juneau, Skagway and Icy Strait Point, then cruising Hubbard Glacier, on to Valdez and Seward, ending in Whittier, Alaska",
+    "focal": "center"
   }
 ]
